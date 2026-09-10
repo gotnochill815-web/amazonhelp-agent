@@ -54,3 +54,7 @@ results/*
 !results/baseline_tfidf_cv_folds.csv
 !results/baseline_tfidf_per_intent.csv
 !results/baseline_tfidf_oof_predictions.csv
+
+!results/bm25_retrieval_top1.csv
+
+!results/bm25_retrieval_top5.csv
