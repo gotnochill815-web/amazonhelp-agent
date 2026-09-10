@@ -38,26 +38,18 @@ results/*
 # IMPORTANT SMALL CHECKPOINTS TO KEEP IN GITHUB
 # =========================================================
 
-# Golden Set annotation checkpoint
 !results/golden_set_human_review_completed.csv
-
-# Golden Set review workbook
 !results/golden_set_final_review.xlsx
-
-# Context-enhanced Golden Set source
 !results/golden_set_v2_rebuilt_context.csv
 
-# Taxonomy
 !results/amazonhelp_intent_taxonomy.csv
 
-# Small evaluation summaries
 !results/evaluation_split_summary.csv
 !results/golden_selection_summary.csv
 !results/golden_context_summary.csv
 !results/golden_duplicate_summary.csv
 !results/golden_language_summary.csv
 
-# Baseline summaries
 !results/baseline_intent_results.csv
 !results/baseline_tfidf_cv_folds.csv
 !results/baseline_tfidf_per_intent.csv
