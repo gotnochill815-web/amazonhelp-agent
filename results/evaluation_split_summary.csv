@@ -1,0 +1,2 @@
+total_pairs,retrieval_pairs,evaluation_pairs,total_conversations,retrieval_conversations,evaluation_conversations,cutoff_time,latest_retrieval_pair,earliest_evaluation_pair,conversation_overlap
+168814,138789,30025,82556,66044,16512,2017-11-24 19:29:15+00:00,2017-12-03 19:12:30+00:00,2017-11-24 19:29:49+00:00,0
