@@ -1,0 +1,30 @@
+# Raw dataset
+*.csv
+*.zip
+*.parquet
+
+# Allow small curated CSVs explicitly later
+!src/**/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+kaggle.json
+
+# Large/generated artifacts
+results/
+!results/.gitkeep
+
+# OS
+.DS_Store
+
+# Logs
+*.log
