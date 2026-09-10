@@ -10,8 +10,8 @@ from rank_bm25 import BM25Okapi
 ROOT = Path("/content/hiver-amazonhelp-agent")
 RESULTS = ROOT / "results"
 
-RETRIEVAL_FILE = RESULTS / "retrieval_pairs.csv"
-GOLDEN_FILE = RESULTS / "golden_set_v1_final.csv"
+RETRIEVAL_FILE = RESULTS / "retrieval_pairs_temporal.csv"
+GOLDEN_FILE = RESULTS / "golden_set_eval.csv"
 
 
 def clean_text(text):
