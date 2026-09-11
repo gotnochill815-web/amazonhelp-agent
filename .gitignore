@@ -66,3 +66,12 @@ results/*
 !results/tfidf_human_gold_predictions.csv
 
 !results/tfidf_human_gold_confusion_matrix.csv
+!results/bm25_comparison_top5.csv
+!results/dense_comparison_top5.csv
+!results/hybrid_retrieval_top5.csv
+!results/hybrid_retrieval_top50.csv
+!results/hybrid_retrieval_intent_proxy.csv
+!results/hybrid_retrieval_intent_metrics.csv
+!results/llm_judge_retrieval_input.jsonl
+!results/llm_judge_retrieval_detail.csv
+!results/llm_judge_retrieval_metrics.csv
