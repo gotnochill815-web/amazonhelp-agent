@@ -1,0 +1,1001 @@
+golden_example_id,rank,usefulness,actionability,reason
+1,1,1,1,Both customers reported missing packages and were advised to check for the package using provided links.
+1,2,1,0,similar circumstances of package delivery and unresolved status.
+1,3,1,0,closely related circumstance of missing delivery
+1,4,1,0,closely related circumstance of missing delivery
+1,5,1,0,closely related circumstance of missing package after delivery notification
+10,1,2,1,"Both customers reported issues with delivery confirmation and missing packages, and the historical response suggests checking a specific link for resolution."
+10,2,1,0,similar circumstance of delivery issues with Amazon's carrier
+10,3,1,1,Provides context about package delivery issues and suggests contacting Amazon via phone or chat.
+10,4,1,0,similar circumstance of delayed delivery with a shipping carrier.
+10,5,1,0,similar circumstance of not receiving a package shipped by Amazon
+100,1,0,0,"the historical customer's issue was about firmware update, not switching between multi-room audio and single device playback."
+100,2,1,0,closely related circumstance of setting up multi-room music
+100,3,0,0,"The historical customer's issue is about firmware updates, not switching between multi-room and single-room audio."
+100,4,0,0,"the historical customer's issue is about disabling another echo in a multi room group, not switching between multi room and single device playback."
+100,5,1,0,similar circumstance of managing multiple Echo devices
+101,1,1,0,"both customers express dissatisfaction with Colis Privé and mention a missing package, indicating a similar issue."
+101,2,1,0,closely related circumstance of delivery issues with a carrier
+101,3,0,0,no common issue or related circumstance.
+101,4,1,0,closely related circumstance of delivery issues with Colis Privé
+101,5,1,0,closely related circumstance of delivery issues with different carriers
+102,1,1,0,closely related circumstance of delivery to a business address
+102,2,1,0,closely related circumstance and similar frustration with delivery times
+102,3,1,0,similar circumstance of a commercial address causing delivery issues
+102,4,1,0,closely related circumstance regarding delivery times and business addresses
+102,5,1,0,similar frustration with delivery times and lack of communication.
+103,1,0,0,"the historical issue is about delivery acceptance, not about exchange options."
+103,2,0,0,the historical customer's issue is different from the current customer's issue.
+103,3,0,0,"The historical customer's inquiry is about exchange eligibility, not about the availability of the exchange option."
+103,4,1,0,similar circumstance of exchange option not being available
+103,5,0,0,no relevant information about exchange options or availability.
+104,1,1,0,closely related circumstance of checking for winner lists
+104,2,1,1,"Both customers are asking about the location of a winners list for a quiz, and the historical response provides a link to find it."
+104,3,0,0,The historical interaction is about a different quiz and does not provide relevant information about a winner list.
+104,4,1,0,similar inquiry about a contest winner list
+104,5,1,0,similar request for location of winners list
+105,1,1,0,"both customers express dissatisfaction with customer service and mention a cancelled order, indicating a similar underlying issue."
+105,2,1,0,both customers express dissatisfaction with customer service.
+105,3,1,0,"both customers express dissatisfaction with customer service, indicating a recurring issue."
+105,4,1,0,"Both customers express dissatisfaction with customer service, indicating a similar underlying issue."
+105,5,1,0,similar sentiment and request for more information
+106,1,1,0,similar circumstance of unexpected delivery service
+106,2,1,0,closely related circumstance of same-day delivery
+106,3,0,0,"the historical interaction is about delivery timing issues, not about having a dedicated delivery vehicle."
+106,4,0,0,different circumstances and no relevant issue.
+106,5,1,0,similar complaint about delivery issues and waiting for delivery
+107,1,1,0,closely related circumstance of delivery issues and potential need for refunds
+107,2,1,0,similar frustration with poor service and unresolved issue
+107,3,1,0,closely related circumstance of customer dissatisfaction and seeking resolution
+107,4,1,0,similar frustration with circular responses and a need for clarification.
+107,5,1,0,similar frustration with a refund issue and seeking clarification on the order site.
+108,1,2,1,"both customers express frustration with slow shipping despite paying for Prime and 2-day shipping, indicating a similar underlying issue."
+108,2,1,0,similar frustration with delayed delivery and request for assistance.
+108,3,1,0,closely related circumstance of delayed delivery
+108,4,1,0,closely related circumstance of delayed shipment
+108,5,1,0,similar frustration with delayed shipping and a request for updates.
+109,1,0,0,The historical interaction does not address the specific issue of providing a RIB.
+109,2,1,0,closely related circumstance of receiving unexpected emails
+109,3,0,0,The historical interaction is unrelated to the current customer's issue with providing a RIB.
+109,4,0,0,The historical interaction does not address the issue of providing a RIB and seems unrelated.
+109,5,1,0,closely related circumstance of a customer expressing frustration with a requirement
+11,1,0,0,no relevant information about account blocking or troubleshooting steps.
+11,2,0,0,The historical interaction does not address the same issue of account blocking.
+11,3,0,0,different issue and no mention of account blocking.
+11,4,0,0,no relevant information about account blocking issues
+11,5,0,0,The historical interaction is about delivery and does not relate to account blocking issues.
+110,1,1,0,closely related circumstance of not announcing winners
+110,2,1,0,similar concern about the lack of transparency in revealing winners of contests
+110,3,1,1,Both customers inquire about the transparency of contest results and the historical customer received a link to the winners list.
+110,4,0,0,The historical interaction does not address the issue of publishing winners.
+110,5,1,0,closely related circumstance of not declaring winners
+111,1,1,0,similar circumstance of order being delivered to a pickup location without the customer's knowledge
+111,2,1,0,similar frustration with delayed delivery and extension of expected date
+111,3,1,0,similar circumstance of delayed order and potential same-day dispatch
+111,4,1,0,similar frustration with delayed order information and lack of clear communication.
+111,5,1,0,similar confusion about delivery date and need for further clarification
+112,1,0,0,The historical customer's issue and the current customer's issue are unrelated.
+112,2,0,0,the historical interaction does not address the issue of receiving the wrong size and the difficulty in exchanging items.
+112,3,0,0,no relevant issue or solution related to exchanging sizes.
+112,4,0,0,different issue and circumstances.
+112,5,0,0,"the historical interaction is about delivery issues, not sizing problems."
+113,1,1,0,similar circumstance of product duplication and stock issues
+113,2,1,0,closely related circumstance of delayed delivery and stock issues
+113,3,1,0,closely related circumstance of delivery issues
+113,4,0,0,different product and issue.
+113,5,0,0,The historical interaction does not address the issue of duplicate products or stock status.
+114,1,1,1,Both customers are asking about the location of their delivered parcel and were directed to a resource for assistance.
+114,2,1,0,closely related circumstance of an order marked as delivered but not received
+114,3,1,1,"Both customers are experiencing issues with their delivery being marked as handed to a resident but not actually received. The historical response provides a link to check delivery status, which could be helpful for the current customer."
+114,4,1,0,closely related circumstance of delivery to a resident
+114,5,1,1,"Both customers reported issues with a package being delivered to a resident instead of the intended recipient. The historical response provides a link to locate the package, which could be applicable to the current customer."
+115,1,1,0,similar frustration with customer service and seeking resolution
+115,2,0,0,"The historical customer did not provide a specific complaint or issue, and the response does not address customer service concerns."
+115,3,1,0,closely related circumstance of poor customer service
+115,4,1,0,similar circumstance of seeking a way to complain or get help from customer service
+115,5,1,0,similar frustration with customer service and request for further action.
+116,1,0,0,"The historical interaction is about a delivery delay and cancellation, unrelated to the current customer's query about a future release date."
+116,2,0,0,The current customer is joking about future delivery and the historical customer is expressing frustration without mentioning delivery details.
+116,3,0,0,The historical interaction is about delivery issues and does not relate to the current customer's query about a future release of a series.
+116,4,1,0,similar circumstance of requesting availability of a product in the future
+116,5,0,0,The historical interaction is about delivery delays and does not relate to the current customer's query about a future release of a TV series.
+117,1,1,0,similar circumstance of a product being unavailable and seeking restock information.
+117,2,1,0,similar circumstance of a product being out of stock and seeking availability.
+117,3,1,0,similar circumstance of product unavailability and seeking availability updates.
+117,4,1,0,"similar inquiry about product availability, though for a different product and region."
+117,5,0,0,The historical interaction is about product availability and does not relate to magazine availability.
+118,1,0,0,The historical message does not address the issue of damaged DVDs in an envelope.
+118,2,0,0,"the historical issue is about missing packages, not damaged ones."
+118,3,1,0,similar concern about packaging and potential damage during shipping
+118,4,0,0,"The historical customer's issue was about delivery service, not damaged DVDs."
+118,5,0,0,The historical interaction is about a different product and issue.
+119,1,0,0,complimentary and unrelated sentiment without specific issue details.
+119,2,1,0,similar frustration with customer service and considering canceling membership
+119,3,1,0,closely related circumstance of delayed delivery as a prime member
+119,4,1,0,similar sentiment of dissatisfaction and potential cancellation.
+119,5,1,0,similar circumstance of delayed delivery and seeking support as a Prime member
+12,1,1,0,"both customers experienced delivery issues and sought refunds, indicating a similar underlying issue."
+12,2,1,0,closely related circumstance of late deliveries and cancellations
+12,3,1,0,similar frustration with delivery issues and cancellation
+12,4,1,0,similar circumstance of delayed order and request for order status
+12,5,1,0,closely related circumstance of delayed Prime order
+120,1,1,0,similar frustration with missing features and a request for enabling specific skills.
+120,2,1,0,similar frustration with missing skills and expectation of availability in India
+120,3,1,0,similar circumstance of skills being unavailable in India
+120,4,2,1,The historical interaction shows that there are many skills being added to India and provides context about geo-restrictions.
+120,5,1,0,closely related circumstance of region-specific availability issues
+121,1,1,0,similar circumstance of receiving incorrect items
+121,2,1,0,similar circumstance of receiving an incorrect item
+121,3,1,0,closely related circumstance of receiving an incorrect item
+121,4,0,0,The historical interaction does not address the issue of incorrect product delivery or refund.
+121,5,0,0,"The historical interaction is about return status, not product mismatch or refund issues."
+122,1,1,0,closely related circumstance of misrepresentation in delivery service
+122,2,1,0,closely related circumstance of false advertising of delivery times
+122,3,1,0,both customers complain about false advertising of delivery times.
+122,4,2,0,both customers are complaining about false advertising of same-day delivery.
+122,5,1,0,closely related circumstance of misrepresentation in advertising delivery times
+123,1,0,0,"The historical customer had a different issue of theft, which does not relate to the current customer's issue of pre-used sheets."
+123,2,0,0,"The historical customer's issue was about delivery delay, not the condition of the product."
+123,3,0,0,"The historical customer's issue was about stolen gifts, not pre-used sheets."
+123,4,0,0,"The historical customer's issue is about receiving incorrect product color, not pre-used sheets."
+123,5,0,0,"The historical customer's issue was about the condition of new books, which is unrelated to the current customer's issue with pre-used sheets."
+124,1,1,0,both customers are asking about when Amazon will start selling certain types of products.
+124,2,1,0,closely related circumstance of Amazon starting to sell electronics in Brazil
+124,3,1,0,closely related circumstance of future product availability
+124,4,0,0,the historical question is about Amazon Prime and does not relate to product categories.
+124,5,0,0,The historical message does not address the current customer's question about when Amazon will start selling certain products directly.
+125,1,1,0,similar frustration with delayed package delivery and miscommunication about delivery dates
+125,2,1,0,similar circumstance of delayed package delivery
+125,3,1,0,similar circumstance of package delivery issues and the need to contact the carrier for clarification
+125,4,1,0,similar frustration with delayed package delivery and seeking support
+125,5,1,0,similar circumstance of delayed delivery
+126,1,1,0,similar circumstance of requesting a replacement and the need to provide details for further assistance.
+126,2,0,0,The historical interaction does not address the issue of receiving a used item or alternate pickup address.
+126,3,0,0,The historical interaction does not address the issue of receiving a used item or alternate pickup address.
+126,4,0,0,the historical interaction is unrelated to the current issue.
+126,5,0,0,different underlying issue and circumstances.
+127,1,1,0,closely related circumstance of delivery issues and customer dissatisfaction
+127,2,0,0,different circumstances and issues.
+127,3,0,0,different issue related to delivery timing.
+127,4,1,0,similar circumstance of delivery issues and lack of communication with the delivery person
+127,5,0,0,different issue of missing items in delivery
+128,1,2,1,same underlying issue of delayed delivery and potential refund for one-day shipping
+128,2,1,0,closely related circumstance of delayed delivery and refund concerns
+128,3,1,0,closely related circumstance of one-day shipping and potential refund
+128,4,1,0,"both customers are seeking a refund for a late delivery, though the historical customer had already paid for 1-day shipping."
+128,5,1,0,closely related circumstance of package not arriving on time
+129,1,1,0,both customers express dissatisfaction with Amazon and seek resolution.
+129,2,1,0,similar sentiment and seeking guidance on next steps
+129,3,1,0,similar sentiment and request for assistance
+129,4,0,0,The historical message does not address any specific issue or provide relevant context.
+129,5,0,0,The historical interaction does not address the current customer's issue with speaking truthfully.
+13,1,1,0,similar circumstance of poor delivery service
+13,2,1,0,similar sentiment and context of poor delivery service experience
+13,3,1,0,similar customer dissatisfaction with delivery issues
+13,4,1,0,"similar frustration with delivery issues, though not identical."
+13,5,1,0,similar sentiment and context of customer dissatisfaction
+130,1,0,0,The historical message is unrelated to the current customer's concern about a rushed purchase.
+130,2,1,0,similar circumstance of a rushed purchase and potential security concerns.
+130,3,1,0,both customers mentioned making a hasty purchase and issues with their payment.
+130,4,1,0,both customers have issues with their orders and seeking assistance.
+130,5,1,0,both customers have issues with a purchase made in a hurry and need assistance.
+131,1,1,0,both customers experienced delayed responses from customer service.
+131,2,1,0,closely related circumstance of receiving canned responses from customer support
+131,3,0,0,"the historical interaction describes positive experiences with customer service, which does not address the current customer's issue of receiving irrelevant responses."
+131,4,1,1,both customers experienced delayed responses and were advised to follow up through a specific channel.
+131,5,1,1,both customers experienced misrouting of their support requests and the historical customer provided a concrete action (filling out a form) to resolve the issue.
+132,1,1,0,closely related circumstance of receiving an email about order shipping issues
+132,2,0,0,the historical customer's issue is unrelated to the current customer's concern about an email.
+132,3,0,0,The historical interaction does not address the issue of suspicious emails or faxing credit card information.
+132,4,0,0,The historical interaction does not address the issue of a suspicious email requesting faxed credit card information.
+132,5,0,0,the historical message is about unauthorized charges and does not address the issue of faxing credit card information.
+133,1,0,0,different issue of package delivery status.
+133,2,1,0,closely related circumstance of multiple delayed deliveries
+133,3,0,0,different issue and unrelated circumstances.
+133,4,0,0,different issue with no relevant context.
+133,5,0,0,different underlying issue of delivery delay vs order count
+134,1,1,1,Both customers are experiencing delayed deliveries and the historical response provides a link to check the delivery status.
+134,2,2,1,Both customers waited all day for a delivery and received an email indicating a delay. The historical response provides a similar resolution path of checking for a new delivery estimate.
+134,3,2,1,"Both customers waited in all day for deliveries and did not receive them, indicating a similar underlying issue."
+134,4,1,0,similar frustration with delayed delivery and request for further assistance.
+134,5,1,0,similar frustration with delivery issues and seeking assistance
+135,1,0,0,different issue with no relevant information.
+135,2,0,0,"the historical customer's issue is about order delivery and charging, not discounts or shipping addresses."
+135,3,0,0,"The historical customer's issue is about canceling the order for a discount, which is different from the current customer's request to ship to Saudi Arabia."
+135,4,0,0,The historical interaction does not address the same issue or provide relevant guidance.
+135,5,0,0,The historical interaction does not address the issue of unapplied discounts or shipping to Saudi Arabia.
+136,1,1,0,closely related circumstance of customer service being perceived as useless
+136,2,1,0,closely related circumstance of service not working through online channels
+136,3,1,0,closely related circumstance of customers seeking alternative contact methods
+136,4,2,2,Both customers are seeking alternative contact methods due to issues with online services.
+136,5,1,0,similar frustration with customer support and request for further assistance.
+137,1,0,0,The historical customer's issue is different and unrelated.
+137,2,0,0,The historical customer's issue is different and unrelated.
+137,3,0,0,The historical customer's issue is different and unrelated.
+137,4,0,0,The historical interaction does not address the issue of being prompted to buy already purchased music or accessing downloaded music.
+137,5,0,0,"the historical customer's issue is about purchasing a music subscription, not accessing already purchased music."
+138,1,1,0,closely related circumstance of delayed pre-orders
+138,2,1,0,closely related circumstance of pre-order delays
+138,3,1,0,similar circumstance of a pre-order being delayed
+138,4,1,0,closely related circumstance of pre-order delay
+138,5,1,0,similar circumstance of pre-order delay
+139,1,1,0,"both customers express urgency due to the gift being for a family member's birthday, indicating a similar circumstance."
+139,2,1,1,"both customers are dealing with delayed gifts for birthdays, and the agent suggests contacting the shipping company for further assistance."
+139,3,0,0,"The historical customer's message is about celebrating a birthday and enjoying a game, which does not address the current customer's issue with the gift."
+139,4,1,0,similar circumstance of delayed delivery and seeking resolution
+139,5,1,0,both customers express issues with gifts for someone else and delayed delivery.
+14,1,1,0,"both messages express positive sentiment about Amazon and holiday shopping, indicating a good experience."
+14,2,0,0,The current customer expresses satisfaction and does not have a similar issue.
+14,3,1,0,closely related circumstance of holiday shopping
+14,4,0,0,The historical interaction is about Amazon Prime benefits and does not address the current customer's positive sentiment.
+14,5,0,0,The historical interaction does not address a similar issue or provide relevant context.
+140,1,1,0,similar frustration with unreliable delivery services and a request for better communication of delivery expectations.
+140,2,2,1,"both customers experienced issues with Intelcom delivery and the historical customer provided a link for tracking, which could guide the current customer."
+140,3,2,1,same underlying issue of delayed delivery by Intelcom and a suggestion to contact Amazon for further assistance.
+140,4,1,0,closely related circumstance of delivery delays
+140,5,1,0,"both customers are dissatisfied with delivery delays, though the current customer mentions a specific carrier (Intelcom)."
+141,1,1,0,closely related circumstance of delayed delivery
+141,2,1,0,similar circumstance of delivery delay and waiting time
+141,3,1,0,similar circumstance of delayed delivery
+141,4,1,0,similar frustration with delivery delays and seeking resolution
+141,5,1,0,similar circumstance of delivery delay and escalation.
+142,1,1,0,similar frustration with customer service and outdated processes
+142,2,1,0,"both customers express dissatisfaction with customer service, indicating a recurring issue."
+142,3,0,0,different issues and no relevant troubleshooting steps.
+142,4,0,0,The historical interaction does not address the same issue or provide relevant context.
+142,5,0,0,different issue with no relevant information.
+143,1,1,0,closely related circumstance of missing order
+143,2,0,0,The historical interaction does not address the issue of finding an order.
+143,3,1,0,closely related circumstance of not finding an order
+143,4,1,0,similar troubleshooting for unlocated orders
+143,5,1,0,similar circumstance of not finding an order and needing assistance.
+144,1,0,0,different issue and unrelated circumstances.
+144,2,0,0,The historical customer's issue and the current customer's issue are unrelated.
+144,3,0,0,The historical interaction is unrelated to the current customer's issue with understanding a conversation about a cable.
+144,4,0,0,"The current customer is inquiring about a product issue, while the historical customer reported receiving the wrong item."
+144,5,0,0,The historical interaction is unrelated to the current customer's issue with understanding an operator.
+145,1,1,0,similar circumstance of an order being a gift and customer dissatisfaction with packaging
+145,2,1,0,closely related circumstance of a customer having issues with replacements and costs
+145,3,1,0,similar frustration with delivery issues and request for a replacement
+145,4,1,0,similar circumstance of ordering a gift and receiving the wrong product
+145,5,0,0,the historical customer's issue is different and not related to the current customer's issue.
+146,1,0,0,"The historical question is about adding Prime as a gift, not about being charged for Prime."
+146,2,1,0,closely related circumstance of managing Amazon Prime subscriptions
+146,3,1,0,closely related circumstance of unexpected charges for Amazon Prime
+146,4,1,1,"The historical interaction shows that customers can cancel unused Prime memberships for a refund, which is relevant to the current customer's concern about being charged for Prime."
+146,5,1,0,closely related circumstance of unexpected charges
+147,1,0,0,"current customer is expressing excitement about a purchase, not concerned about fraudulent messages."
+147,2,0,0,情感相关的内容与当前顾客的问题无关。
+147,3,0,0,当前客户的请求与历史客户的问题不相关，历史客户讨论的是关于亚马逊的诈骗电话，而当前客户只是表达了对某商品的渴望。
+147,4,1,0,提供された歴史的な対話は詐欺についての警告で、現在のクライアントも同様の懸念を持っている可能性があります。
+147,5,0,0,当前客户的问题是关于订单需求，而历史客户的问题是关于邮件文字化问题，两者不相关。
+148,1,2,1,same underlying issue of missing delivered parcel and need for further action.
+148,2,1,0,similar circumstance of missing parcel after delivery
+148,3,1,0,closely related circumstance of a missing delivery
+148,4,1,0,similar circumstance of missing parcel and poor service from the same carrier
+148,5,1,0,similar circumstance of missing parcel and need for updates
+149,1,2,0,"both customers express severe dissatisfaction with Amazon's service, indicating a similar underlying issue."
+149,2,2,0,both customers express loss of trust and dissatisfaction with Amazon's service.
+149,3,0,0,The historical customer's experience does not address the current customer's negative sentiment.
+149,4,1,0,similar frustration with service and potential next steps.
+149,5,1,0,both customers express dissatisfaction with service quality.
+15,1,1,0,similar complaint about delayed delivery
+15,2,0,0,the historical customer did not receive on-time delivery and the response did not address the issue.
+15,3,1,0,closely related circumstance of incorrect delivery information
+15,4,0,0,different issue of on-time delivery
+15,5,0,0,different issue of on-time delivery vs. exchange offer
+150,1,1,0,closely related circumstance of delayed deliveries
+150,2,1,0,similar frustration with access codes and seeking assistance.
+150,3,1,0,closely related circumstance of locker delivery issues
+150,4,1,0,closely related circumstance of issues with Amazon lockers and access codes
+150,5,1,0,similar circumstance of delayed package delivery and locker code issues
+151,1,1,0,similar circumstance of a delayed Christmas package without proper packaging
+151,2,1,0,similar circumstance of unexpected packaging during a specific event (Xmas)
+151,3,1,0,similar circumstance of unexpected packaging timing
+151,4,0,0,different issue and no relevant context.
+151,5,1,0,"both customers complained about inconsistent packaging practices, though the historical one was more specific about the quality of packaging."
+152,1,1,0,closely related circumstance of confusion about human vs bot interaction
+152,2,0,0,The historical message does not address the underlying issue of being locked out or the need for human assistance.
+152,3,0,0,The historical interaction does not address the issue of being locked out or the presence of human support.
+152,4,0,0,The historical interaction does not address the issue of being locked out or the presence of bots.
+152,5,0,0,the historical message does not address the specific issue of being locked out or the use of bots.
+153,1,0,0,历史记录与当前客户的问题不相关，没有提供有用的信息。
+153,2,0,0,历史记录与当前客户的问题不相关，没有提供有用的信息。
+153,3,0,0,历史记录与当前客户的问题不相关，涉及的是视频租赁而非垃圾邮件问题。
+153,4,0,0,历史记录与当前客户的问题不相关，没有提供有用的信息。
+153,5,0,0,历史记录与当前客户的问题无关，一个是关于游戏代码的问题，另一个是关于疑似垃圾邮件的困惑。
+154,1,0,0,The historical interaction is about a different issue (activation of Prime membership) and does not provide relevant information about promotional offers.
+154,2,1,0,closely related circumstance and similar support workflow
+154,3,0,0,The historical interaction does not address the question about promotional Prime membership.
+154,4,0,0,"the historical question was about Prime Music availability, not promotional Prime membership."
+154,5,1,0,closely related circumstance of gifting an echo dot and prime membership
+155,1,1,0,closely related circumstance of poor service and delayed response
+155,2,1,0,both customers express dissatisfaction with Amazon India service.
+155,3,1,0,similar frustration with Amazon India and delivery issues
+155,4,1,0,similar sentiment and context of dissatisfaction with Amazon India
+155,5,1,0,"both messages express strong dissatisfaction with Amazon India, indicating a similar underlying issue."
+156,1,0,0,The historical message is about extortion and does not relate to the current customer's message.
+156,2,0,0,The historical message is about liking an Amazon CM and does not address any customer issue.
+156,3,0,0,The historical message is unrelated to the current customer's message.
+156,4,0,0,The messages do not share any relevant content or context.
+156,5,0,0,The current customer's message is positive and unrelated to any issues.
+157,1,1,1,both customers are concerned about suspicious messages and advice to avoid contacting the unknown number.
+157,2,0,0,内容が全く関連ありません。
+157,3,0,0,历史客户的咨询与当前客户遇到的问题不相关，一个是关于意外注册亚马逊Prime，另一个是关于疑似诈骗电话。
+157,4,0,0,当前客户的咨询涉及疑似诈骗电话，而历史客户的问题是关于包裹的配送问题，两者情况不同。
+157,5,1,0,相似的的情况，但没有直接解决当前问题的具体行动建议。
+158,1,0,0,The historical customer's message does not address the current customer's negative feedback.
+158,2,1,0,closely related circumstance of delivery issues
+158,3,1,0,similar sentiment of negative experience and potential loss of trust.
+158,4,1,0,"both customers express dissatisfaction with delivery service, indicating a similar underlying issue."
+158,5,0,0,The historical customer's message does not address the current customer's complaint about delivery service.
+159,1,0,0,different issue (package location vs wrong item received)
+159,2,0,0,different product and issue.
+159,3,0,0,different underlying issue with no relevant troubleshooting.
+159,4,1,0,similar circumstance of receiving incorrect item
+159,5,0,0,"The historical customer's issue is about receiving a wrong item, while the current customer is about delayed delivery."
+16,1,1,0,closely related circumstance of order status and shipping timeline
+16,2,1,0,similar circumstance of an order delay and need for assistance.
+16,3,1,0,similar circumstance of preorder and delivery date
+16,4,1,0,similar circumstance of preordering and waiting for a product.
+16,5,1,0,similar circumstance of delayed delivery and seeking resolution
+160,1,0,0,The historical customer's issue and the current customer's issue are different in amount and context.
+160,2,0,0,The historical message does not address the specific issue of refund amounts and does not provide relevant information.
+160,3,0,0,The historical interaction is about a different issue of bribery by a courier and does not provide relevant information for the current customer's refund issue.
+160,4,0,0,The historical interaction does not address the issue of partial refund for courier charges.
+160,5,0,0,"The historical customer's issue is about delivery receipt and location, not about courier charges."
+161,1,1,0,closely related circumstance of a mistake on the website
+161,2,0,0,The historical interaction is about package damage and does not address the issue of website mistakes or account access requests.
+161,3,1,0,closely related circumstance of an issue being visible on the website but requiring account access for resolution.
+161,4,0,0,The historical interaction does not address the issue of mistakes on the website or the need for account access.
+161,5,0,0,The historical interaction does not address the issue of mistakes on the website or the need for account access.
+162,1,0,0,the historical message does not provide any specific information about errors.
+162,2,1,0,"both customers are experiencing errors and seeking assistance, though the specific error is not provided."
+162,3,1,0,similar circumstance of receiving an error and seeking assistance.
+162,4,0,0,The historical interaction does not address the error the current customer is experiencing.
+162,5,1,0,similar error and potential workaround
+163,1,0,0,当前顾客的问题与历史顾客的问题不相关，一个是关于观看亚马逊Prime的内容，另一个是关于Amazon Prime应用的连接问题。
+163,2,0,0,内容はプライムサービスの特典についてで、現在のクエスチョンとは関連ありません。
+163,3,1,0,虽然历史客户提到了忘记了自己的Prime会员身份，但没有具体提到如何观看内容，与当前客户的问题不完全相关。
+163,4,1,0,虽然两者的主题不同，但都涉及了使用Amazon Prime服务并探索其内容。
+163,5,1,0,"both customers seem to have discovered the existence of Amazon Prime Video and its benefits, though the current customer is already aware."
+164,1,1,1,"Both customers are dealing with delayed pickup of returned items, and the historical response suggests a specific action (responding to an email) to resolve the issue."
+164,2,1,0,closely related circumstance of returning an item
+164,3,1,0,closely related circumstance of item return and refund request
+164,4,1,0,similar issue of refund not processed for returned item
+164,5,1,0,similar circumstance of delayed refund and need for assistance
+165,1,1,0,虽然历史客户提到的内容与当前客户相似，都在讨论使用Fire TV Stick观看电影和流媒体服务，但没有提供具体的行动步骤或解决方案。
+165,2,0,0,内容は異なる問題で、解決策も適用されない。
+165,3,0,0,当前客户表达了对Fire TV Stick的喜爱，而历史客户报告了屏幕放大问题，两者不相关。
+165,4,1,0,"both customers mention using Amazon Fire TV stick for watching TV shows, though one is about a specific show and the other is more general."
+165,5,1,0,两者都涉及了亚马逊Fire TV Stick，虽然一个是关于配送，另一个是关于使用，但可以提供一些背景信息。
+166,1,1,0,closely related circumstance of poor service experience
+166,2,1,0,similar frustration with unresponsive service
+166,3,1,0,similar frustration with repeated issues and seeking resolution
+166,4,0,0,The historical message does not address the customer's concern about trust and complaints.
+166,5,1,0,both customers express frustration with inconsistent service and seek resolution.
+167,1,1,0,closely related circumstance of delivery issues
+167,2,1,0,similar frustration with delivery issues and a request for tracking information
+167,3,1,0,similar frustration with delivery issues and a request for escalation.
+167,4,1,0,closely related circumstance of delivery issues in Atlanta
+167,5,1,0,similar frustration with delivery issues and a request for more details.
+168,1,1,0,closely related circumstance of delivery delays and customer dissatisfaction
+168,2,1,0,closely related circumstance of late delivery and customer frustration
+168,3,1,0,similar complaint about delayed delivery and lack of communication
+168,4,1,0,closely related circumstance of delayed delivery
+168,5,0,0,different delivery company and no mention of communication issues.
+169,1,0,0,当前客户的评论是正面评价，而历史客户的问题与此无关。
+169,2,0,0,当前客户的评论是正面的，而历史客户的问题与当前情况不符。
+169,3,0,0,The historical message is unrelated to the current customer's message.
+169,4,0,0,current customer's message is positive and does not indicate any issue.
+169,5,2,0,same underlying issue of quick delivery
+17,1,0,0,"The current customer's issue is about delivery time, while the historical customer's issue is about pricing."
+17,2,0,0,different issue unrelated to delivery time
+17,3,1,0,"both customers express frustration with delayed delivery and mention orders, indicating a similar issue."
+17,4,1,0,closely related circumstance of delivery delays and expectations
+17,5,1,0,closely related circumstance of delayed delivery
+170,1,1,0,similar circumstance of delivery issues and need for confirmation of carrier
+170,2,1,0,similar frustration with delivery and potential missed delivery date
+170,3,1,0,similar circumstance of delayed delivery and need for more information
+170,4,1,0,similar circumstance of delivery issues during busy periods
+170,5,0,0,different issue with no relevant information.
+171,1,0,0,历史记录与当前客户的问题无关，没有提供关于亚马逊礼品卡和Prime会员账户是否可以共用的信息。
+171,2,0,0,历史记录与当前问题情境和需求不匹配，无法提供有用的信息。
+171,3,0,0,历史记录与当前问题无关，没有提供关于亚马逊礼品卡和Prime Now账户重用的信息。
+171,4,0,0,历史记录与当前客户的问题无关，一个是关于游戏代码的问题，另一个是关于亚马逊礼品卡的使用问题。
+171,5,0,0,历史记录与当前问题无关，涉及的是配送和退款问题，而非账户相关问题。
+172,1,1,0,similar circumstance of cancelling an order
+172,2,0,0,The historical customer did not request cancellation and the historical response did not provide any actionable steps.
+172,3,0,0,The historical interaction does not address the specific request to cancel an order.
+172,4,1,1,"Both customers are trying to cancel an order that is in transit, and the historical response provides a similar resolution path."
+172,5,2,2,"Both customers are trying to cancel an order, and the historical response provides a link to cancel the order."
+173,1,1,0,similar circumstance of delayed shipment and customer frustration
+173,2,1,0,similar circumstance of delayed delivery and customer care issues
+173,3,1,0,closely related circumstance of delivery issues and similar customer frustration
+173,4,1,0,similar frustration with delayed shipment and request for delivery information.
+173,5,1,0,provides context about customer dissatisfaction with Amazon Prime and customer service
+174,1,0,0,The historical interaction does not address the same issue or provide relevant information.
+174,2,0,0,The historical interaction does not address any specific issue and lacks context relevant to the current customer's message.
+174,3,0,0,The historical interaction does not address any customer issue and is unrelated to the current query.
+174,4,0,0,The historical interaction does not address a similar issue or provide relevant context.
+174,5,0,0,The historical interaction does not address the same issue or provide relevant context.
+175,1,1,0,closely related circumstance of a broken product and need for reporting
+175,2,1,0,closely related circumstance of a dispute over a broken item
+175,3,1,0,similar circumstance of receiving a broken item and the need to return it
+175,4,1,0,similar circumstance of receiving a broken item
+175,5,1,0,closely related circumstance of receiving a broken item
+176,1,1,0,similar sentiment and frustration about service quality.
+176,2,1,0,similar frustration and dissatisfaction with service
+176,3,1,0,similar sentiment of disappointment and a request for clarification on the issue.
+176,4,0,0,The historical message does not address any issues and is unrelated to the current customer's concern.
+176,5,1,0,similar sentiment and context of frustration with the service
+177,1,1,0,两者都涉及从亚马逊收到商品，但没有具体的行动步骤或解决方案。
+177,2,1,0,相似的的情境表明客户可能收到了多个商品，但没有提供具体的解决方案。
+177,3,2,0,same underlying issue of items being delivered from Amazon
+177,4,0,0,The historical message is about receiving a product and does not address any issues.
+177,5,0,0,The historical message does not indicate any delivery issues.
+178,1,0,0,The message is unrelated to any potential customer support issue.
+178,2,0,0,The historical message is unrelated to the current customer's message.
+178,3,0,0,no relevant issue or context related to the current customer's message.
+178,4,1,0,similar sentiment and context of positive experience with a customer.
+178,5,0,0,The messages are expressions of love and do not provide relevant information about a product or service issue.
+179,1,1,0,closely related circumstance of delivery delays and value of Prime membership
+179,2,1,0,closely related circumstance of Prime membership value and 2-day shipping
+179,3,1,0,closely related circumstance of considering Amazon Prime value based on delivery issues
+179,4,1,0,similar circumstance of delivery delays and a suggestion to check carrier performance.
+179,5,1,0,closely related circumstance of Prime membership and delivery issues
+18,1,1,0,closely related circumstance regarding availability of the app on Apple TV
+18,2,1,0,closely related circumstance regarding availability on Apple TV
+18,3,1,0,"both customers are inquiring about availability on Apple TV, indicating a similar circumstance."
+18,4,1,0,closely related circumstance of requesting an app on a smart TV
+18,5,1,0,closely related circumstance of asking about an app for Apple TV
+180,1,1,0,closely related circumstance of customer dissatisfaction with customer service
+180,2,1,0,similar complaint about being charged twice on an order
+180,3,1,0,similar circumstance of multiple charges for one purchase
+180,4,1,0,similar frustration with delayed shipping and potential miscommunication.
+180,5,1,0,closely related circumstance of customer dissatisfaction and need for more details
+181,1,0,0,The historical message and response do not provide relevant information about the current customer's issue.
+181,2,0,0,The messages do not contain any relevant content and appear to be promotional or unrelated.
+181,3,0,0,The historical interaction does not address a similar issue or provide relevant guidance.
+181,4,0,0,The historical interaction does not provide relevant information about contacting AmazonHelp.
+181,5,0,0,The URLs do not provide any relevant information about the customers' issues.
+182,1,0,0,The historical interaction does not address payment discrepancies or refunds.
+182,2,0,0,The historical message does not address the issue of partial refunds or tips.
+182,3,1,0,similar complaint about delayed refund and request for assistance
+182,4,0,0,The historical message is about tracking a refund and does not address the issue of a partial refund or tip.
+182,5,0,0,The historical interaction does not address the specific issue of a partial refund and missing amount.
+183,1,1,1,"Both customers are requesting a way to communicate, and the response provides a concrete action (sending an MD) to resolve the issue."
+183,2,1,0,both customers are asking for a way to communicate privately.
+183,3,1,0,"both customers are seeking assistance, indicating a similar need for communication."
+183,4,2,1,"both customers initiated communication via MP, which is a similar circumstance."
+183,5,0,0,The historical interaction is unrelated to the current customer's request for a phone call.
+184,1,1,0,closely related circumstance of unresolved issues and customer dissatisfaction
+184,2,1,0,closely related circumstance of unresolved issues
+184,3,1,0,similar circumstance of ongoing issues with device performance over time
+184,4,1,0,similar circumstance of unresolved issues and need for further action.
+184,5,1,0,similar sentiment and context of poor customer service experience
+185,1,2,1,两者都涉及收到疑似欺诈的短信，且已确认为诈骗。
+185,2,2,1,两者都涉及了收到疑似欺诈的短信，且有进一步的防范建议。
+185,3,2,1,两者都涉及收到疑似欺诈的短信，且历史案例提供了防范建议。
+185,4,2,1,相同的的遭遇和防范措施相关，可以提供有用的信息和指导。
+185,5,2,1,两者都涉及收到疑似欺诈的短信，且都进行了调查确认是诈骗。
+186,1,1,0,相似的的情况涉及退款问题，虽然具体细节不同，但可以提供一些背景信息。
+186,2,0,0,两者涉及的问题不同，一个是关于误配送退款延迟，另一个是关于未支付注册费用的诈骗信息。
+186,3,0,0,当前客户的问题是关于退货后未收到退款，而历史客户的问题是关于未收到支付确认邮件，两者情况不同。
+186,4,1,0,相似的的情况，涉及退货后未收到退款的问题，可以提供一些背景信息。
+186,5,1,0,相似的的情况，但没有提供具体的解决方案或行动步骤。
+187,1,1,0,closely related circumstance and similar support workflow
+187,2,1,0,similar frustration with delivery issues and request for more information.
+187,3,1,0,closely related circumstance of delayed delivery
+187,4,2,1,same underlying issue of missed delivery on a guaranteed date and a request for assistance.
+187,5,1,1,Both customers are experiencing repeated missed delivery dates and the historical response provides a link to check for updated delivery information.
+188,1,0,0,The messages are compliments and do not provide relevant information about the issue.
+188,2,0,0,The historical message does not provide relevant information about the customer's issue.
+188,3,0,0,The historical message is too brief and does not provide any relevant information.
+188,4,0,0,insufficient context and no relevant issue discussed.
+188,5,0,0,The historical interaction does not provide any relevant information about the customer's issue.
+189,1,1,0,similar frustration with customer service and multiple calls.
+189,2,1,0,similar circumstance of waiting for customer care response
+189,3,2,1,"Both customers have had multiple interactions with customer care and are experiencing long wait times, which provides context for the current customer's frustration."
+189,4,1,0,similar frustration with customer service and multiple calls.
+189,5,1,0,both customers experienced delays in customer service response and were frustrated with the lack of updates.
+19,1,0,0,different product and issue.
+19,2,0,0,different circumstances and no relevant issue.
+19,3,0,0,The historical interaction is about receiving a gift voucher and does not address the current customer's issue with receiving an Amazon Echo.
+19,4,0,0,different circumstances and no relevant issue.
+19,5,0,0,The historical message is about phishing and does not relate to receiving an Amazon Echo as a gift.
+190,1,1,0,similar circumstance of receiving damaged cat food
+190,2,1,0,similar circumstance of shipping damage and potential impact on pets
+190,3,2,1,"Both customers reported damaged cat food and sought assistance, indicating a similar issue."
+190,4,1,1,"Both customers reported damaged items in their orders, and the response provided a link for return or replacement options."
+190,5,1,0,similar circumstance of damaged product and need for replacement
+191,1,0,0,当前客户的消息是关于疑似欺诈，而历史客户的消息是关于产品破损的问题，两者不相关。
+191,2,2,1,same underlying issue of phishing email and similar advice on staying cautious.
+191,3,1,0,相似的的情境，客户都怀疑是诈骗，但实际并非如此。
+191,4,0,0,当前客户的消息是关于诈骗的指控，而历史客户的问题是关于地址输入错误导致订单未送达，两者不相关。
+191,5,1,0,虽然当前客户的问题与历史客户的问题不同，但都涉及到系统问题，可能有相似的解决路径。
+192,1,1,0,similar sentiment and engagement with the Treasure Truck program
+192,2,1,0,closely related circumstance of receiving an item
+192,3,1,0,closely related circumstance regarding Amazon Treasure Truck
+192,4,0,0,"The historical interaction is about a broken link in a Treasure Truck text, which is unrelated to the current customer's message."
+192,5,1,0,"similar sentiment and product context, though no specific issues or actions."
+193,1,1,0,两者都涉及对亚马逊Prime会员身份的意外发现，虽然具体内容不同，但可以提供相似的上下文。
+193,2,0,0,无相关问题，历史客户讨论的是亚马逊Prime会员的好处，而当前客户表达了对成为亚马逊Prime会员的担忧。
+193,3,2,1,两者都涉及意外成为亚马逊Prime会员并被扣费的问题，历史客户和当前客户的情况相似，可以提供解决方法。
+193,4,1,0,两者都涉及突然无法使用Prime Video的问题，虽然具体情境不同，但可以提供类似的支持流程。
+193,5,1,0,相似的的情境，涉及亚马逊Prime的相关服务和体验，但没有具体的行动建议。
+194,1,1,0,similar circumstance of multiple deliveries and potential theft
+194,2,0,0,different product and issue.
+194,3,1,0,closely related circumstance of delayed delivery
+194,4,0,0,different product and different issue.
+194,5,0,0,different delivery issues and no concrete actions provided
+195,1,1,0,closely related circumstance of delayed delivery
+195,2,1,0,similar circumstance of receiving incorrect item and seeking resolution
+195,3,0,0,The historical interaction does not address the issue of receiving the wrong product.
+195,4,0,0,different product and no mention of receiving the wrong item.
+195,5,1,0,closely related circumstance of receiving a different product and needing to follow up with Amazon for resolution.
+196,1,0,0,历史顾客的问题和当前顾客的问题不相关，一个是关于Kindle的注释功能，另一个是关于Kindle的阅读体验。
+196,2,0,0,历史顾客的问题和当前顾客无关，讨论的是Kindle设备而非阅读问题。
+196,3,0,0,historical customer's issue and current customer's issue are unrelated.
+196,4,0,0,historical customer's message was about receiving a Kindle and not about reading issues.
+196,5,0,0,当前客户的问题是关于Kindle阅读问题，而历史客户的问题是关于未知包裹的处理，两者不相关。
+197,1,2,2,both customers have questions about what benefits they can get from Amazon Prime after accidental enrollment.
+197,2,1,0,两者都涉及误将账户升级为Prime并询问相关功能，但历史交互没有提供具体操作步骤。
+197,3,1,0,两者都涉及了关于亚马逊Prime的疑问，虽然具体问题不同，但可以提供一些背景信息。
+197,4,1,0,两者都涉及误操作加入Amazon Prime的问题，虽然具体问题不同，但可以提供一些背景信息。
+197,5,1,0,虽然历史客户的问题与当前客户不同，但涉及到Amazon Prime的自动续订问题，可以提供一些背景信息。
+198,1,0,0,历史消息与当前客户的问题无关，一个是关于账户安全，另一个是关于包裹包装。
+198,2,0,0,历史记录与当前客户的问题无关，没有提供相关帮助。
+198,3,0,0,历史记录与当前客户的问题无关，涉及的是已下单商品未收到的情况，而非账户被滥用。
+198,4,1,0,相似的的情境，涉及未知来源的包裹，可以提供参考信息。
+198,5,0,0,两者涉及的问题完全不同，没有相关性。
+199,1,1,0,closely related circumstance and similar support workflow
+199,2,1,1,Both customers are seeking assistance and the response provides a similar request for details.
+199,3,1,1,Both customers are seeking assistance and the response provides a similar troubleshooting step.
+199,4,1,0,"both customers are seeking assistance, providing a similar context."
+199,5,1,0,both customers are seeking help and the response asks for more details.
+2,1,0,0,the historical message is about package delivery and not about picking up orders from a store or post box.
+2,2,0,0,the historical interaction does not address pickup options.
+2,3,0,0,the historical message is unrelated to the pickup options.
+2,4,1,0,closely related circumstance of无人值守收货
+2,5,0,0,"the historical customer's question is about canceling a Kindle book preorder, which is unrelated to picking up orders."
+20,1,0,0,The historical interaction does not address the same issue or provide relevant information.
+20,2,0,0,different issue with playback functionality.
+20,3,0,0,different issue and no relevant information about the song or album.
+20,4,0,0,The historical customer had a different issue about playback stopping after the first song.
+20,5,0,0,different issue with wake word confusion.
+200,1,1,1,similar timing of delivery issues and a recommended follow-up method
+200,2,1,1,similar circumstances of delayed delivery and potential resolution
+200,3,1,0,similar circumstance of delayed delivery and seeking resolution
+200,4,1,0,closely related circumstance of package not arriving late at night
+200,5,1,0,similar circumstance of package not arriving by expected time
+21,1,1,1,"Both customers are requesting assistance from customer service, and the historical response provides a concrete action (using a link) to contact support."
+21,2,1,0,similar request for customer service contact
+21,3,1,1,"Both customers are seeking assistance from customer service, and the historical response provides a concrete action (link to contact customer support)."
+21,4,0,0,The historical customer did not request or receive contact from customer service.
+21,5,1,0,closely related circumstance of seeking assistance from customer service
+22,1,1,0,similar circumstance of a delivery change and seeking assistance
+22,2,1,0,similar circumstance of delayed delivery and seeking assistance
+22,3,1,0,similar circumstance of delivery delay and need for carrier information
+22,4,0,0,"The historical customer's situation is different as their order arrived later than expected, not being rescheduled."
+22,5,1,0,similar circumstance of delivery date changes and potential delays.
+23,1,0,0,different circumstances and issues.
+23,2,1,0,similar complaint about delayed deliveries under Amazon Prime
+23,3,1,0,"both customers express dissatisfaction with delivery service, indicating a recurring issue."
+23,4,1,0,both customers complain about delivery issues and express dissatisfaction with one-day delivery promises.
+23,5,1,0,closely related circumstance of delayed delivery
+24,1,1,0,closely related circumstance of delivery issues
+24,2,1,0,similar circumstance of repeated delivery failures and a request for further information.
+24,3,1,0,similar circumstance of failed deliveries and a suggestion to contact support
+24,4,2,1,same underlying issue of delivery failure and a request for assistance.
+24,5,1,0,similar frustration with delivery delays and expectation of timely delivery
+25,1,1,0,closely related circumstance of delivery issues and follow-up with the delivery team
+25,2,1,0,closely related circumstance of delivery issues and need for customer assistance
+25,3,1,0,closely related circumstance of delivery issues and need for customer service assistance
+25,4,1,0,closely related circumstance of repeated delivery issues
+25,5,1,0,similar frustration with delivery issues and a request for support
+26,1,0,0,"The historical interaction does not provide relevant information about shopping in Tehran, Iran."
+26,2,0,0,"The historical interaction does not address the current customer's request for assistance with shopping in Tehran, Iran."
+26,3,1,0,closely related circumstance of international shopping issues
+26,4,0,0,"The historical customer did not address the issue of shopping in Tehran, Iran."
+26,5,0,0,"The historical message does not provide relevant information about shopping in Tehran, Iran."
+27,1,0,0,The historical interaction does not address the same issue as the current customer.
+27,2,0,0,The historical interaction does not address the same issue as the current customer.
+27,3,0,0,The historical interaction does not address the same issue as the current customer.
+27,4,0,0,"different issue related to delivery timing, not product functionality"
+27,5,0,0,The historical message does not address any technical issues with the Dash Button.
+28,1,2,0,both customers express frustration with delivery delays despite paying for Amazon Prime.
+28,2,2,1,both customers express frustration with late deliveries despite paying for Prime and provide links to their orders.
+28,3,2,1,"both customers express frustration with delayed deliveries despite paying for Prime membership, indicating a potential issue with delivery timelines."
+28,4,2,1,both customers express frustration with delayed deliveries despite ordering with Prime and provide similar context.
+28,5,1,1,both customers express disappointment with delayed delivery and the historical response provides a link to track the order.
+29,1,1,0,closely related circumstance of delivery delay and prime membership
+29,2,1,0,closely related circumstance of delayed Prime delivery
+29,3,1,0,similar circumstance of delayed delivery and potential carrier issue
+29,4,2,1,both customers experienced delays in filament orders from Prime and the historical customer received a request for tracking information.
+29,5,1,0,similar circumstance of delayed delivery and providing a link to check the delivery date
+3,1,1,0,similar circumstance of delivery issues and request for more information
+3,2,1,0,closely related circumstance and similar troubleshooting context
+3,3,1,0,similar circumstance of an order being out for delivery but not received
+3,4,1,0,similar circumstance of missed delivery notifications
+3,5,1,0,similar circumstance of package delivery and timing
+30,1,0,0,"the historical interaction is about a charge issue with Audible, not about purchasing an annual membership."
+30,2,0,0,The historical interaction does not address the issue of purchasing an annual membership or free trial.
+30,3,1,0,similar circumstance of a free trial being charged unexpectedly
+30,4,1,0,closely related circumstance of being on a free trial without knowing it
+30,5,0,0,The historical interaction is about a different service (Prime) and does not address the issue of purchasing an annual membership.
+31,1,2,0,same underlying issue of quick delivery
+31,2,1,0,closely related circumstance of timely delivery
+31,3,1,0,closely related circumstance of early delivery
+31,4,2,0,same underlying issue of unexpected quick delivery
+31,5,0,0,no relevant information about delivery time or issues.
+32,1,1,0,"both customers praise the customer service, indicating a positive experience."
+32,2,1,0,similar positive feedback on customer service
+32,3,2,0,both customers had positive experiences with quick resolution and excellent service.
+32,4,1,0,similar positive feedback and appreciation context
+32,5,0,0,no relevant issue or solution discussed.
+33,1,1,0,similar sentiment and context of waiting for delivery
+33,2,1,0,similar sentiment and circumstance of a happy delivery receipt
+33,3,1,0,similar positive experience with the product
+33,4,1,0,closely related circumstance of package arrival
+33,5,1,0,similar circumstance of package arrival
+34,1,0,0,The historical message is about needing a product and does not relate to the current customer's query about Amazon Prime.
+34,2,0,0,The historical interaction does not address a problem and is unrelated to the current customer's query.
+34,3,1,0,closely related circumstance of subscription and cancellation
+34,4,0,0,"The current customer is inquiring about Amazon Prime benefits, while the historical customer had issues with delivery times."
+34,5,0,0,The historical interaction is unrelated to the current customer's query about Amazon Prime.
+35,1,1,0,closely related circumstance of subtitle issues
+35,2,1,0,closely related circumstance of subtitle availability
+35,3,1,0,similar troubleshooting steps for missing subtitles
+35,4,1,0,similar troubleshooting for missing subtitles
+35,5,0,0,The historical interaction is about subtitles for a different show and does not address the specific issue of missing subtitles.
+36,1,2,1,"The historical interaction shows how to provide a complaint and offers multiple contact options, which is relevant to the current customer's request."
+36,2,2,1,"Both customers are seeking an email address to make a complaint, and the historical response provides a concrete solution."
+36,3,2,2,"Both customers are seeking an email address to submit a formal complaint, and the historical response provides a concrete solution."
+36,4,2,1,"Both customers are seeking an email address to make a complaint, and the response provides a link to contact Amazon."
+36,5,2,2,"Both customers are seeking a way to make a complaint, and the historical response provides a concrete action (contacting through a specific link or DM)."
+37,1,0,0,"The historical issue is about non-delivery of packages, not about receiving incorrect quantities."
+37,2,0,0,different product quantity and no mention of missing items.
+37,3,0,0,The historical customer received the correct order and did not mention any issues with quantity.
+37,4,0,0,The historical interaction does not address the issue of receiving the wrong quantity.
+37,5,0,0,The historical message does not provide relevant information about the quantity issue.
+38,1,1,0,closely related circumstance of waiting for a call
+38,2,1,0,similar circumstance of waiting for a package
+38,3,0,0,no relevant issue or resolution related to package delivery.
+38,4,1,0,closely related circumstance of waiting for delivery
+38,5,1,0,closely related circumstance of waiting for a package
+39,1,2,1,"The historical interaction addresses a similar delivery delay issue and prompts the customer to check the delivery date, which could be applicable to the current customer."
+39,2,1,0,closely related circumstance of delayed delivery
+39,3,2,1,"Both customers are experiencing delayed delivery and seeking next steps, which suggests contacting customer service for options."
+39,4,1,0,closely related circumstance of missing delivery
+39,5,1,0,closely related circumstance of delayed Prime One Day Delivery
+4,1,1,0,"both customers express frustration with delivery updates and lack of photos, indicating a similar issue."
+4,2,0,0,The historical interaction is about a different issue of non-delivery attempts without an actual attempt.
+4,3,1,0,closely related circumstance of delivery team marking orders as delivered without accuracy
+4,4,1,0,both customers complain about lack of delivery confirmation photos when packages are missing.
+4,5,0,0,The historical interaction does not address the issue of missing delivery photos.
+40,1,0,0,different issue related to reading content vs using table of contents.
+40,2,1,0,closely related circumstance of reading issues with e-books
+40,3,0,0,"the historical message is about purchasing issues, not using the table of contents."
+40,4,0,0,The historical interaction does not provide any information about using the table of contents or resolving reading issues.
+40,5,0,0,The historical interaction does not address the use of a table of contents or reading issues.
+41,1,2,1,Both customers are experiencing delays in delivery and seeking clarification on the expected delivery time.
+41,2,1,0,both customers are experiencing delays in 2-day shipping and seeking clarification.
+41,3,1,0,closely related circumstance and similar misunderstanding about Amazon Prime delivery times
+41,4,1,0,closely related circumstance and similar support workflow
+41,5,2,1,"It addresses the customer's confusion about the difference between Amazon Prime and Amazon Logistics, which is relevant to the current customer's issue."
+42,1,1,0,both customers are asking about the likelihood of delivery during a specific time when they won't be home.
+42,2,1,0,closely related circumstance of missing delivery due to absence
+42,3,1,0,closely related circumstance of delivery
+42,4,0,0,"the current customer is concerned about delivery time, while the historical customer complained about the wrong address."
+42,5,0,0,the historical message is about a delivery person and does not address the customer's concern about delivery timing.
+43,1,1,0,closely related circumstance of delivery issues
+43,2,0,0,the historical message does not address the issue of unavailable items for delivery.
+43,3,1,0,closely related circumstance of delivery issues
+43,4,0,0,"The historical customer's issue is about weekend deliveries, not availability for next-day delivery."
+43,5,1,0,closely related circumstance of delayed delivery
+44,1,1,0,closely related circumstance of delayed delivery
+44,2,1,0,closely related circumstance of delivery time changes
+44,3,1,0,closely related circumstance of delayed delivery options
+44,4,1,0,both customers are experiencing delayed deliveries and are concerned about the change in delivery times.
+44,5,1,0,closely related circumstance of Prime shipping delays
+45,1,1,0,similar circumstance of unexpected packaging
+45,2,1,0,similar circumstance of surprise gifts not being in boxes
+45,3,1,1,"Both customers received gifts without proper packaging, which is a similar issue."
+45,4,2,1,"both customers complained about lack of packaging for a Christmas gift delivery, which is a similar underlying issue."
+45,5,1,0,closely related circumstance of a package not being boxed
+46,1,1,0,similar frustration with delivery issues and need for resolution
+46,2,1,0,similar circumstance of delivery failure due to address issues
+46,3,1,0,closely related circumstance of delivery issues and lack of access
+46,4,0,0,The historical interaction does not address the issue of the courier failing to gain access to the property.
+46,5,0,0,different underlying issue with no safe place specified.
+47,1,1,0,both customers expressed dissatisfaction with the customer service experience.
+47,2,1,0,closely related circumstance of customer dissatisfaction
+47,3,1,0,closely related circumstance of impatience
+47,4,1,0,similar sentiment about poor customer service experience
+47,5,1,0,similar frustration and request for more details
+48,1,1,0,similar frustration with delayed packages and potential for further investigation into the issue.
+48,2,1,0,closely related circumstance of delivery issues and similar frustration with shipping delays
+48,3,1,0,closely related circumstance of package delays and Amazon Prime subscription
+48,4,1,0,similar circumstance of package delays and a request for carrier information
+48,5,1,0,closely related circumstance of package delays
+49,1,0,0,different issue related to delivery date
+49,2,1,0,similar circumstance of ordering a device and waiting for delivery
+49,3,0,0,different issue with no actionable steps.
+49,4,0,0,different issue related to order tracking.
+49,5,1,0,closely related circumstance of placing an order
+5,1,1,0,similar circumstance of eagerly waiting for a product release
+5,2,0,0,The historical message does not provide relevant information about the @119625 series.
+5,3,0,0,"The historical interaction is about waiting for a second episode, not about receiving a product."
+5,4,0,0,The historical interaction does not address the same issue or provide relevant information.
+5,5,1,0,similar circumstance of eagerly waiting for new content
+50,1,1,0,closely related circumstance of delivery issues with Intelecom
+50,2,2,1,both customers are experiencing issues with Intelcom deliveries and seeking resolution.
+50,3,2,1,"both customers express dissatisfaction with Intelcom deliveries and suggest stopping their use, which is relevant to the current customer's issue."
+50,4,2,1,"Both customers are dissatisfied with Intelcom deliveries and have multiple undelivered orders, indicating a similar underlying issue."
+50,5,0,0,The historical interaction does not address delivery issues or Intelecom.
+51,1,1,0,similar complaint about delivery delay and need for investigation.
+51,2,1,0,similar frustration with delivery issues and seeking resolution.
+51,3,1,0,both customers are experiencing delayed delivery and seeking resolution.
+51,4,1,0,similar complaint about delivery issues and lack of service quality.
+51,5,1,0,similar circumstance of delayed delivery without updates
+52,1,1,0,similar circumstance of missing package and need for resolution
+52,2,0,0,The historical customer did not mention any specific issues or solutions regarding a missing package.
+52,3,1,0,similar circumstance of missing package and difficulty contacting customer service
+52,4,1,0,similar circumstance of unresolved missing package and multiple interactions with customer service.
+52,5,1,0,similar frustration with customer service and lack of resolution
+53,1,1,0,closely related circumstance and similar support workflow
+53,2,0,0,different feature request and no relevant information about adding Echo to multiple groups.
+53,3,1,0,closely related circumstance of managing multiple Echo devices in a multi-room setup
+53,4,0,0,"the historical interaction is about registering an Echo to an account with multiple user profiles, not about adding an Echo to multiple multi-room music groups."
+53,5,0,0,"the historical question is about scheduling playlists, not adding Echo to multiple groups."
+54,1,1,0,similar circumstance of delivery issues and request for reporting the issue.
+54,2,1,0,similar circumstance of delayed delivery and request for tracking details
+54,3,1,0,closely related circumstance of missed delivery date
+54,4,1,0,closely related circumstance of delayed delivery
+54,5,1,0,similar circumstance of late delivery and seeking assistance
+55,1,1,1,Both customers are facing issues placing an order and have tried multiple times without success.
+55,2,1,0,similar troubleshooting for order issues
+55,3,1,0,similar circumstance of order issues and lack of communication
+55,4,0,0,The historical customer did not have an issue placing an order.
+55,5,0,0,"The historical customer's issue is about delivery address, not placing an order."
+56,1,1,0,closely related circumstance of delivery issues due to weather
+56,2,0,0,different sentiment and unrelated context about delivery timing.
+56,3,1,0,closely related circumstance of delivery attempts
+56,4,2,1,both customers express positive sentiment about Amazon delivery and the courier service
+56,5,1,0,closely related circumstance of delivery and sorting by Amazon
+57,1,0,0,different issue with unrelated symptoms.
+57,2,1,0,similar troubleshooting steps were taken by both customers.
+57,3,1,0,similar troubleshooting for device unresponsiveness
+57,4,0,0,The historical customer did not provide specific details about their issue or receive any concrete advice.
+57,5,0,0,the historical interaction does not provide specific information about technical issues.
+58,1,1,0,closely related circumstance of late delivery under Prime membership
+58,2,1,0,"both customers express frustration with late deliveries and lack of delivery despite being home, indicating a similar underlying issue."
+58,3,2,1,Both customers express frustration with late deliveries despite having a Prime membership and mention the need to check order status.
+58,4,1,1,"Both customers are concerned about late deliveries despite being Prime members, and the historical response suggests checking the delivery date from the confirmation email."
+58,5,1,0,similar frustration with late deliveries and explanation of Two-Day shipping conditions.
+59,1,1,0,similar circumstance of stolen package and seeking resolution
+59,2,1,0,similar circumstance of a stolen package and seeking help
+59,3,1,0,similar circumstance of stolen package and seeking resolution
+59,4,1,0,similar circumstance of stolen package and providing advice
+59,5,1,0,"both customers experienced package theft and expressed frustration, though the historical case does not provide specific actions."
+6,1,1,0,similar complaint about delivery service and seeking resolution
+6,2,1,0,similar complaint about delivery service and unprofessional behavior.
+6,3,0,0,the historical message does not address a similar issue or provide relevant context.
+6,4,1,0,similar frustration with delivery service and request for improvement.
+6,5,1,0,similar complaint about delivery agent behavior and unprofessionalism
+60,1,2,1,"Both customers experienced multiple issues with incorrect products being delivered, indicating a recurring problem. The historical response provides a link for the customer to share details for further investigation."
+60,2,1,0,similar negative experience with Amazon India and a request for assistance.
+60,3,0,0,The historical customer did not mention any issues with order delivery and the response does not provide any actionable information.
+60,4,1,0,similar complaint about delivery issues in India
+60,5,1,0,closely related circumstance of multiple bad experiences
+61,1,1,0,closely related circumstance and similar customer concern
+61,2,1,0,similar complaint about the absence of a POS machine and forced cash payment.
+61,3,1,0,closely related circumstance regarding cash payment options
+61,4,1,0,closely related circumstance of delivery without a POS machine
+61,5,1,0,similar circumstance of cash-only payment and need for reporting
+62,1,0,0,the historical interaction does not address the delivery schedule concern.
+62,2,1,0,closely related circumstance of ordering and delivery time
+62,3,0,0,different issue regarding book availability and adding to cart.
+62,4,1,0,similar context of purchasing and receiving items on different days.
+62,5,0,0,no relevant information about delivery schedule
+63,1,1,0,similar circumstance of ordering a gift for someone else
+63,2,0,0,The historical interaction does not address an order issue.
+63,3,1,0,similar complaint about receiving the wrong item
+63,4,0,0,"the historical message is about gift wrapping, not packaging."
+63,5,0,0,"the current issue is about receiving the wrong item, not about excess packaging."
+64,1,1,0,closely related circumstance of receiving incorrect items
+64,2,0,0,different product and no mention of incorrect delivery.
+64,3,0,0,different product and issue.
+64,4,1,0,similar circumstance of receiving incorrect items
+64,5,1,0,similar circumstance of receiving incorrect item
+65,1,1,0,similar circumstance of delayed delivery and lack of communication from courier
+65,2,1,0,similar circumstance of delayed delivery and seeking assistance
+65,3,1,0,closely related circumstance of delayed delivery with Intelcom
+65,4,1,1,similar circumstance of delayed delivery and suggested contact method
+65,5,1,0,similar troubleshooting of non-responsive delivery attempts
+66,1,1,0,closely related circumstance of delivery issues over multiple days
+66,2,1,0,closely related circumstance of delivery issues and lack of clear communication
+66,3,1,0,similar circumstance of repeated delivery failures and request for further investigation.
+66,4,1,0,closely related circumstance of delivery failure due to contact issues
+66,5,2,1,both customers are experiencing delivery issues and the historical response provides a link for reporting the issue.
+67,1,1,1,similar circumstances of delayed delivery and confusion about expected arrival date
+67,2,1,1,similar confusion about Two-Day Shipping and Prime membership benefits
+67,3,1,0,similar circumstance of shipping delays and processing time
+67,4,1,0,similar confusion about two-day shipping and the timing of delivery
+67,5,2,1,same underlying issue of conflicting delivery dates and request for confirmation details.
+68,1,1,0,"both customers are experiencing account blockage issues, though the historical customer did not mention confirming their account."
+68,2,1,0,closely related circumstance of account being blocked without reason
+68,3,0,0,The historical message does not address account blocking issues.
+68,4,0,0,different issue (account block vs. delivery delay)
+68,5,1,0,closely related circumstance of account being blocked
+69,1,0,0,The current customer is discussing a purchase with discounts and not about a missing order.
+69,2,0,0,"The historical customer's issue is about an extra shipping charge and missing package, which is unrelated to the current customer's message about discounts and purchases."
+69,3,0,0,The historical message is about finding a desired product and does not address a purchase or discount issue.
+69,4,0,0,"The historical customer had issues with non-delivery of products, which is different from the current customer's context of making a purchase with discounts."
+69,5,0,0,"The current customer is discussing discounts and a purchase, while the historical customer is talking about ordering books."
+7,1,1,0,similar circumstance of account lockout due to payment information issues
+7,2,1,0,closely related circumstance of account being locked
+7,3,1,0,similar troubleshooting of account lockout issues
+7,4,1,0,closely related circumstance of account being locked and needing to provide verification
+7,5,1,1,"Both customers were locked out of their accounts, and the historical response suggests checking for emails from the accounts team."
+70,1,1,0,closely related circumstance of missing tracking information
+70,2,1,0,similar circumstance of a missing collection location
+70,3,1,0,closely related circumstance of waiting for collection
+70,4,1,0,similar circumstance of waiting for collection and seeking assistance.
+70,5,0,0,different underlying issue with package location.
+71,1,0,0,The historical interaction does not address the current customer's question about gifting in the UK.
+71,2,1,0,closely related circumstance of sending gifts across countries
+71,3,0,0,The historical interaction is about ordering from a different country and does not address gift delivery.
+71,4,0,0,"the historical interaction is about gifting Amazon Prime, not Kindle gifts."
+71,5,1,0,closely related circumstance of buying gifts/vouchers in the UK
+72,1,1,0,similar circumstance of expecting a cash back after renewing Prime membership
+72,2,0,0,"The historical customer's issue is about receiving a partial voucher amount, not about expecting a voucher after retaining a subscription."
+72,3,1,0,similar circumstance of expecting a voucher after renewing subscription
+72,4,1,0,closely related circumstance of a voucher and payment for Amazon Prime subscription
+72,5,0,0,"The historical customer's issue is about losing Prime membership, not about receiving a voucher."
+73,1,1,1,"Both customers experienced issues with their poster arriving incorrectly and sought a resolution, which may guide the current customer on next steps."
+73,2,2,1,same underlying issue of receiving the wrong product (pillow case instead of poster)
+73,3,1,0,similar complaint about receiving incorrect items
+73,4,2,1,"The historical customer received a refund and kept a different item, which is a similar situation where the product received was incorrect."
+73,5,1,1,"Both customers received damaged items and were seeking resolution, making the historical interaction somewhat useful."
+74,1,1,0,similar frustration with next-day delivery and expectation of prompt resolution
+74,2,2,1,"Both customers are experiencing delays with next-day delivery as a Prime member, and the historical response suggests checking for an updated delivery date."
+74,3,2,1,"Both customers express dissatisfaction with next-day delivery delays and seek resolution, providing context for the current customer's expectations."
+74,4,1,0,similar complaint about next-day delivery delays and frustration with delivery times
+74,5,1,0,closely related circumstance of next day delivery expectations
+75,1,0,0,The historical interaction is about a smaller credit amount and does not address the refusal of credit.
+75,2,1,0,closely related circumstance of receiving a credit and being refused
+75,3,0,0,The historical interaction does not address the issue of receiving a credit and the refusal of that credit.
+75,4,1,0,closely related circumstance of credit issues and need for further assistance
+75,5,0,0,"The historical customer did not receive a credit and the current customer is refusing a credit, which are different scenarios."
+76,1,1,0,similar circumstance of delivery issues and lack of package
+76,2,1,0,closely related circumstance of repeated delivery issues
+76,3,0,0,the historical interaction does not address the same issue as the current customer.
+76,4,0,0,different issue of package delivery delay vs. driver presence
+76,5,0,0,The historical message does not address a similar issue or provide relevant context.
+77,1,1,0,similar frustration with fraudulent deliveries and Prime service issues.
+77,2,1,0,similar circumstance of fraud and unresolved delivery issues
+77,3,1,0,similar frustration with Prime delivery issues and seeking assistance
+77,4,1,0,similar complaint about fraud and unfulfilled delivery
+77,5,1,0,similar frustration with fraudulent delivery attempts and a request for details to resolve the issue.
+78,1,1,0,closely related circumstance of unavailable content
+78,2,1,0,similar circumstance of requesting content updates
+78,3,1,0,closely related circumstance regarding availability of Mr. Robot season 3
+78,4,1,0,closely related circumstance and similar support workflow
+78,5,1,0,similar circumstance of waiting for a show and seeking updates
+79,1,1,1,Both customers are asking about playing music from a list on their device through Alexa.
+79,2,1,0,closely related circumstance of playing a playlist
+79,3,0,0,"The historical question is about playing a playlist from Saavn, which is unrelated to shuffling music from an Echo playlist."
+79,4,1,0,closely related circumstance of playing a playlist
+79,5,1,0,closely related circumstance and similar support workflow
+8,1,2,1,both customers expressed positive sentiments about the delivery arrival.
+8,2,1,0,similar sentiment and context of first-time purchase
+8,3,1,0,similar sentiment and context of receiving a product
+8,4,2,1,"both messages indicate receipt confirmation and positive sentiment, which could help in addressing the current customer's message."
+8,5,1,0,closely related sentiment and response format
+80,1,1,0,similar circumstance of delivery issues with intelcom
+80,2,1,0,similar circumstance of delayed delivery and need for confirmation of delivery date
+80,3,1,0,similar circumstances of delayed delivery and contacting the carrier without success
+80,4,1,0,closely related circumstance of delayed delivery and customer dissatisfaction
+80,5,1,0,similar circumstance of delayed delivery and unresponsive carrier
+81,1,0,0,The historical interaction is about email address issues and does not relate to spam emails.
+81,2,0,0,"the historical message is about delivery issues with mail carriers, not spam."
+81,3,0,0,"the historical interaction is about tracking and delivery issues, not spam."
+81,4,0,0,the historical message is about a different issue (spam vs. email verification)
+81,5,0,0,The historical message is about delivery issues and does not relate to spam emails.
+82,1,1,0,similar complaint about order cancellation and lack of communication
+82,2,1,0,closely related circumstance of order cancellation and refund issues
+82,3,1,0,similar frustration with order cancellation issues and potential system errors.
+82,4,1,0,closely related circumstance of order cancellation and refund issues
+82,5,1,0,similar issue of unauthorized charges and cancelled orders
+83,1,1,0,closely related circumstance of a customer with a Prime subscription issue
+83,2,0,0,different underlying issues with no relevant troubleshooting steps.
+83,3,0,0,"The historical customer's issue is about non-delivery of orders, while the current customer inquires about a subscription and product purchases."
+83,4,1,0,similar circumstance of purchasing vinyl and CD
+83,5,1,0,closely related circumstance involving Amazon Prime subscription and issues with delivery
+84,1,0,0,两者情境完全不同，一个是关于收到商品的反馈，另一个是关于购买商品后的感受。
+84,2,0,0,the historical message is about a different product and does not address any issues with received items.
+84,3,1,0,相似的的情况，涉及未收到全部包裹的问题，但没有具体的解决步骤。
+84,4,1,0,相似的的情况，涉及意外收到物品，但没有订单记录。
+84,5,0,0,两者问题和上下文完全不同，一个是关于猫的包裹，另一个是关于取消Prime会员自动续订。
+85,1,1,0,similar circumstance of delivery issues and lack of communication
+85,2,1,0,similar circumstance of delayed delivery and need for follow-up
+85,3,1,0,similar frustration with delayed delivery and lack of updates.
+85,4,1,0,similar frustration with unresponsive courier and lack of delivery despite multiple attempts
+85,5,1,0,similar complaint about unverified 'customer not available' claims
+86,1,1,0,similar circumstance of receiving a damaged product
+86,2,0,0,The historical interaction does not address the issue of returning an expired product.
+86,3,1,0,closely related circumstance of receiving an expiring item
+86,4,1,0,similar troubleshooting for returning a problematic product
+86,5,1,0,closely related circumstance of receiving an expired product
+87,1,1,0,closely related circumstance of retrieving invoices
+87,2,1,0,closely related circumstance of requesting VAT invoice information
+87,3,2,1,"Both customers are asking about retrieving a VAT invoice for Amazon Prime membership, and the historical response provides a concrete method."
+87,4,1,0,similar request for invoice and related process of contacting support
+87,5,1,0,closely related circumstance of needing an invoice copy
+88,1,1,0,closely related circumstance of a photo being included in delivery notifications but incorrect location shown
+88,2,1,0,similar circumstance of missing package and lack of notification
+88,3,1,0,similar circumstance of wrong delivery location
+88,4,2,1,The historical interaction shows a similar issue of incorrect delivery location and provides a concrete action for the customer to take.
+88,5,0,0,The historical interaction does not address the issue of incorrect delivery location.
+89,1,1,0,closely related circumstance of delayed delivery
+89,2,1,1,Both customers have had issues with delivery delays and suggest contacting the delivery service for updates.
+89,3,1,0,both customers report issues with delivery delays and lack of communication.
+89,4,1,0,similar frustration with delayed delivery and lack of communication
+89,5,1,0,closely related circumstance of delayed delivery and need for customer to check with carrier
+9,1,1,0,similar circumstance of repeated order issues
+9,2,0,0,"The historical customer's issue was about product quality, not delivery."
+9,3,1,0,similar circumstance of delayed delivery for Prime members
+9,4,1,0,similar circumstance of orders not arriving on time
+9,5,0,0,The historical customer's issue is unrelated to the current customer's problem.
+90,1,1,0,closely related circumstance of delayed delivery under Prime membership
+90,2,1,0,closely related circumstance of delayed delivery under Prime membership
+90,3,1,0,closely related circumstance of delayed Prime delivery
+90,4,1,0,closely related circumstance of delayed delivery
+90,5,2,1,Both customers express frustration with long delivery times for Prime orders and seek clarification on the value of Prime membership.
+91,1,1,0,closely related circumstance of using Fire TV Stick for watching sports and YouTube
+91,2,0,0,历史记录与当前客户的问题无关，没有提供关于Amazon Fire TV Stick或服务的相关信息。
+91,3,0,0,no relevant information about using Amazon Fire TV Stick
+91,4,0,0,无相关性，历史交互与当前顾客的问题无关。
+91,5,2,1,"same product and usage scenario, provides context on benefits of Fire TV Stick"
+92,1,1,0,similar troubleshooting of delivery issues
+92,2,0,0,different issue related to delivery date and additional shipping fees.
+92,3,1,0,closely related circumstance of delivery delay
+92,4,0,0,different issue and circumstances.
+92,5,1,0,closely related circumstance of delivery issues
+93,1,1,0,similar circumstance of receiving damaged TVs
+93,2,0,0,The historical interaction does not address the issue of a missing TV and does not provide relevant information.
+93,3,1,0,closely related circumstance of disputed delivery attempt
+93,4,1,0,similar circumstance of multiple delayed orders
+93,5,1,0,similar circumstance of delivery issues and need for resolution
+94,1,0,0,the historical message is unrelated to the current customer's issue with warranty claims.
+94,2,0,0,historical message is unrelated to warranty claims.
+94,3,1,0,closely related circumstance of contacting SAV
+94,4,0,0,the historical message does not address the issue of warranty claims.
+94,5,0,0,the historical customer's issue and the current customer's issue are different.
+95,1,1,0,similar circumstance of receiving a book in unexpected condition
+95,2,0,0,The historical customer's issue is unrelated to the current customer's concern about a line on a new book.
+95,3,0,0,"the current customer's issue is about a line on a new book, while the historical customer's issue was about damaged books."
+95,4,1,0,similar circumstance of receiving a book with issues
+95,5,0,0,"the current customer's issue is about a line on the book, not missing information."
+96,1,0,0,different issue (account lock vs. return request)
+96,2,1,0,similar circumstance of account lock and multiple attempts to resolve
+96,3,1,0,similar issue of account lock due to transaction and need for further action.
+96,4,1,1,Both customers are experiencing account lock issues and the historical response suggests checking spam/junk folders.
+96,5,1,0,similar circumstance of unresolved account issues
+97,1,1,0,closely related circumstance of delayed deliveries from the same seller
+97,2,2,1,both customers have issues with delayed deliveries from the same seller and suggest contacting the carrier as a next step.
+97,3,0,0,different underlying issues (delay vs. late delivery)
+97,4,1,0,closely related circumstance of delayed deliveries from the same sellers
+97,5,0,0,The historical customer did not mention any issues with deliveries and praised the service of @116928.
+98,1,1,1,"The historical interaction shows a similar issue of calls being disconnected due to an order not being found, which provides context and a potential solution."
+98,2,1,0,similar frustration with customer care and disconnection issues
+98,3,2,1,same underlying issue of difficulty contacting customer care
+98,4,1,0,similar troubleshooting of unresponsive customer service
+98,5,1,0,similar frustration with customer care and difficulty in contacting them
+99,1,1,0,closely related circumstance of delayed delivery
+99,2,2,1,same underlying issue of missing delivery and similar troubleshooting steps provided.
+99,3,2,1,same underlying issue of a missing delivery and provides a link to potential solutions.
+99,4,1,0,closely related circumstance of order being marked delivered but not received
+99,5,1,0,similar circumstance of delayed delivery and seeking clarification
