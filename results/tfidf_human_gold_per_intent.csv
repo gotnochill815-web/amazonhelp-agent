@@ -1,0 +1,8 @@
+intent,precision,recall,f1,support
+delivery_problem,0.34615384615384615,0.9,0.5,10.0
+delivery_status,0.0,0.0,0.0,4.0
+digital_product_support,0.0,0.0,0.0,5.0
+order_issue,0.0,0.0,0.0,2.0
+prime_membership,0.0,0.0,0.0,2.0
+refund_issue,0.0,0.0,0.0,1.0
+returns_replacements,0.6,0.42857142857142855,0.5,7.0

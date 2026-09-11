@@ -1,0 +1,8 @@
+,delivery_problem,delivery_status,digital_product_support,order_issue,prime_membership,refund_issue,returns_replacements
+delivery_problem,9,0,0,0,0,0,1
+delivery_status,4,0,0,0,0,0,0
+digital_product_support,5,0,0,0,0,0,0
+order_issue,2,0,0,0,0,0,0
+prime_membership,1,0,0,0,0,0,1
+refund_issue,1,0,0,0,0,0,0
+returns_replacements,4,0,0,0,0,0,3

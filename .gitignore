@@ -58,3 +58,11 @@ results/*
 !results/bm25_retrieval_top1.csv
 
 !results/bm25_retrieval_top5.csv
+
+!results/tfidf_human_gold_summary.csv
+
+!results/tfidf_human_gold_per_intent.csv
+
+!results/tfidf_human_gold_predictions.csv
+
+!results/tfidf_human_gold_confusion_matrix.csv

@@ -1,0 +1,2 @@
+dataset,n_examples,train_size,test_size,random_state,test_size_fraction,accuracy,macro_f1,weighted_f1,evaluation_note
+152-example human-reviewed Gold,152,121,31,42,0.2,0.3870967741935484,0.14285714285714285,0.27419354838709675,Fixed holdout used because singleton intents prevent valid stratified k-fold evaluation.
