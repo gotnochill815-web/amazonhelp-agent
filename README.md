@@ -1,162 +1,60 @@
-# AmazonHelp Support Agent
+# AmazonHelp AI Support Agent
 
-An evidence-aware AI support agent built for the Hiver SDE Intern take-home assignment using the Customer Support on Twitter dataset.
+AI customer-support agent built for the Hiver SDE Intern take-home assignment.
 
-## Project Goal
+## Pipeline
 
-Build a support agent that:
+Customer message -> intent classification -> dense historical retrieval -> evidence/actionability assessment -> grounded response or human escalation
 
-1. Classifies incoming customer messages into a small support-intent taxonomy.
-2. Retrieves historically similar AmazonHelp interactions.
-3. Grounds responses in how AmazonHelp handled similar issues.
-4. Decides whether a case can be handled automatically or should involve a human.
+## Final human-Gold evaluation
 
-The project emphasizes evaluation, leakage control, baselines, and explicit decision-making over model complexity.
+Primary benchmark: **152 genuinely human-labeled examples**.
 
-## Dataset
+| Metric | Result |
+|---|---:|
+| Intent accuracy | 56.6% |
+| Intent macro F1 | 58.3% |
+| Intent weighted F1 | 56.3% |
+| Grounded rate | 98.0% |
+| Strong evidence | 36.8% |
+| High actionability | 42.1% |
+| Auto-answer rate | 3.9% |
 
-Source: Customer Support on Twitter (TWCS)
+## Intent taxonomy
 
-Selected brand: **AmazonHelp**
-
-The AmazonHelp corpus provides substantial conversational depth and diverse support issues including delivery, returns, refunds, payments, account issues, membership, and digital products.
-
-The raw dataset is intentionally not committed to this repository.
-
-## Intent Taxonomy
-
-The current taxonomy contains 11 support intents:
-
-- `delivery_status`
-- `delivery_problem`
-- `order_issue`
-- `preorder_issue`
-- `returns_replacements`
-- `refund_issue`
-- `payment_billing`
-- `account_security`
-- `prime_membership`
-- `digital_product_support`
-- `general_support`
-
-Annotation rule: assign the primary actionable support request. Escalation is treated as a separate decision from intent classification.
-
-## Data Split and Leakage Control
-
-The historical retrieval corpus uses a temporal split so future evaluation conversations cannot leak into the historical evidence set.
-
-The final retrieval corpus also excludes the six Golden Set conversation roots.
-
-Validation includes:
-
-- conversation-root overlap checks
-- normalized exact-text overlap checks
-- temporal separation between retrieval and evaluation data
-
-## Retrieval Experiments
-
-Three retrieval strategies were evaluated:
-
-1. BM25
-2. Dense retrieval using `all-MiniLM-L6-v2`
-3. Hybrid BM25 + Dense retrieval followed by CrossEncoder reranking
-
-Retrieval quality was evaluated using a local Qwen 2.5 7B judge with two dimensions:
-
-- usefulness
-- actionability
-
-The LLM judge is treated as an evaluation instrument, not absolute ground truth.
-
-The final retrieval component selected for the agent is **Dense retrieval** because it provided the strongest balance of useful and actionable historical evidence among the evaluated approaches.
-
-## Dense Retrieval Calibration
-
-Dense cosine similarity was separately calibrated against judged top-1 evidence quality on 200 Golden examples.
-
-The experiment showed that higher similarity generally increased judged usefulness, but similarity alone was not a reliable signal for safe automatic resolution.
-
-| Threshold | Coverage | Useful | Actionable |
-|---:|---:|---:|---:|
-| 0.70 | 76.5% | 71.9% | 2.6% |
-| 0.75 | 55.5% | 75.7% | 2.7% |
-| 0.80 | 34.5% | 81.2% | 1.4% |
-| 0.85 | 14.5% | 72.4% | 3.4% |
-
-Therefore the current implementation treats `0.70` as a **retrieval-quality gate**, not as a probability or automatic-answer confidence score.
-
-## Agent Architecture
-
-```text
-Customer message
-       |
-       v
-Intent classification
-       |
-       v
-Dense top-k retrieval
-       |
-       v
-Evidence assessment
-       |
-       +--------------------+
-       |                    |
-    sufficient           insufficient
-       |                    |
-       v                    v
-Grounded draft       Clarification /
-response             human escalation
-       |
-       v
-Escalation / risk check
-       |
-       v
-Final support decision
-```
+- delivery_status
+- delivery_problem
+- order_issue
+- preorder_issue
+- returns_replacements
+- refund_issue
+- payment_billing
+- account_security
+- prime_membership
+- digital_product_support
+- general_support
 
 ## Evaluation
 
-The repository includes:
+The evaluation harness includes trivial and TF-IDF intent baselines, semantic intent experiments, BM25 retrieval, dense retrieval, hybrid retrieval, LLM-as-judge evaluation, grounding evaluation, and end-to-end human-Gold evaluation.
 
-- human-labelled Golden Set
-- TF-IDF intent baseline
-- BM25 / Dense / Hybrid retrieval comparison
-- LLM-as-judge retrieval evaluation
-- Dense threshold calibration
-- decision log documenting major modeling choices
+## Important caveat
 
-The primary intent benchmark uses genuinely human-labelled examples. Model-assisted examples are kept separate from ground truth.
+A 98.0% grounded rate does not mean 98.0% of requests are safe to answer automatically.
 
-## Repository Structure
+Only 36.8% had strong evidence, 42.1% had high actionability, and the final auto-answer rate was 3.9%.
 
-```text
-src/
-├── data/
-├── intent/
-├── evaluation/
-├── retrieval/
-└── agent.py
+The system intentionally separates related retrieval from safe autonomous answering.
 
-results/
-reports/
-notebooks/
-```
+## Reports
 
-## Author
+- reports/FINAL_REPORT.md
+- reports/FINAL_REPORT.pdf
 
-**Prakhya Khandelwal**
+## Decision log
 
-GitHub: [@gotnochill815-web](https://github.com/gotnochill815-web)
+See DECISION_LOG.md.
 
-## Current Status
+## Repository
 
-- dataset reconstruction completed
-- AmazonHelp corpus reconstructed
-- temporal evaluation split completed
-- Golden Set established
-- human-labelled benchmark established
-- TF-IDF intent baseline completed
-- BM25 / Dense / Hybrid retrieval comparison completed
-- Dense retrieval selected
-- Dense evidence threshold calibration completed on 200 examples
-- evidence-aware agent implementation in progress
+https://github.com/gotnochill815-web/hiver-amazonhelp-agent
