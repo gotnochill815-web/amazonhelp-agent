@@ -1,0 +1,14 @@
+metric,value
+human_gold_examples,152.0
+intent_accuracy,0.5657894736842105
+intent_macro_f1,0.5825872089029984
+intent_weighted_f1,0.5630254020143217
+grounded_rate,0.9802631578947368
+strong_evidence_rate,0.3684210526315789
+high_actionability_rate,0.42105263157894735
+auto_answer_rate,0.039473684210526314
+escalation_accuracy_vs_human,0.05263157894736842
+escalation_precision_vs_human,0.0136986301369863
+escalation_recall_vs_human,1.0
+escalation_f1_vs_human,0.02702702702702703
+intent_human_agreement,0.5657894736842105
