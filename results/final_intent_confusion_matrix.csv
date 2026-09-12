@@ -1,0 +1,11 @@
+,account_security,delivery_problem,delivery_status,digital_product_support,order_issue,payment_billing,preorder_issue,prime_membership,refund_issue,returns_replacements
+account_security,1,0,0,0,0,0,0,0,0,0
+delivery_problem,0,22,5,0,4,0,0,2,4,4
+delivery_status,0,7,10,1,0,0,0,0,1,2
+digital_product_support,0,1,1,9,0,0,0,0,3,3
+order_issue,0,1,0,0,10,1,0,0,2,0
+payment_billing,0,0,0,0,0,1,0,0,0,0
+preorder_issue,0,0,0,0,0,0,1,0,0,0
+prime_membership,1,1,0,0,3,0,1,5,0,6
+refund_issue,0,0,0,0,0,0,0,1,7,1
+returns_replacements,0,1,1,1,4,0,0,1,2,20
