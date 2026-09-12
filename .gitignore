@@ -75,3 +75,9 @@ results/*
 !results/llm_judge_retrieval_input.jsonl
 !results/llm_judge_retrieval_detail.csv
 !results/llm_judge_retrieval_metrics.csv
+!results/dense_top1_threshold_judgments.jsonl
+!results/dense_threshold_calibration_summary.csv
+!results/retrieval_selection_summary.csv
+!results/three_way_retrieval_metrics.csv
+!results/three_way_retrieval_judge_detail.csv
+!results/retrieval_comparison_judge.jsonl
