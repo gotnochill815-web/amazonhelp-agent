@@ -1,36 +1,43 @@
 # Decision Log
 
-## Retrieval architecture selection
+## Brand selection
+Selected AmazonHelp because its corpus provides substantial support history across diverse customer issues.
 
-### Decision
+## Evaluation split
+Used a temporal split rather than a random retrieval split to reduce future-information leakage.
 
-Use dense retrieval as the final retrieval component for the support agent.
+## Golden-set leakage protection
+Golden conversation roots were excluded from the historical retrieval corpus.
 
-### Evidence
+## Intent taxonomy
+Used 11 compact actionable support intents. Escalation is treated separately from intent.
 
-Evaluation used 200 Golden queries and five retrieved candidates per query
-for BM25, dense, and hybrid retrieval.
+## Intent classifier
+Selected a hybrid of narrow high-precision rules and MiniLM semantic fallback after comparing several alternatives.
 
-At K=5:
+## Retrieval
+Evaluated BM25, dense, and hybrid retrieval. Dense retrieval was selected based on stronger usefulness and actionability criteria.
 
-- BM25: 86.5% useful, 69.0% clearly useful, 75.0% actionable
-- Dense: 87.0% useful, 76.0% clearly useful, 81.0% actionable
-- Hybrid + CrossEncoder: 90.0% useful, 23.0% clearly useful, 29.0% actionable
+## Similarity threshold
+Dense similarity is treated as a ranking signal rather than a calibrated probability.
 
-### Rationale
+## Grounding
+Automatic response requires strong evidence and high actionability.
 
-Hybrid achieves the highest broad usefulness rate, but that metric counts
-partially useful evidence. Dense retrieval provides substantially more
-clearly useful and actionable evidence, which is more important for grounded
-support responses.
+## Response generation
+Historical AmazonHelp responses are used as grounding. The generator should not invent unsupported policies or commitments.
 
-### Rejected alternative
+## Escalation
+The system escalates when evidence is insufficient, actionability is weak, intent confidence is uncertain, additional information is required, or the case is sensitive.
 
-Hybrid + CrossEncoder was rejected for the final agent despite its higher
-Useful@5 score because its evidence quality was materially lower.
+## Final benchmark
+Human-Gold examples: 152
+Intent accuracy: 56.6%
+Intent macro F1: 58.3%
+Grounded rate: 98.0%
+Strong evidence: 36.8%
+High actionability: 42.1%
+Auto-answer rate: 3.9%
 
-### Evaluation caveat
-
-The retrieval judge is an LLM-based evaluation instrument. The metrics should
-be interpreted as judged evidence usefulness rather than absolute retrieval
-ground truth.
+## Main lesson
+related retrieval != strong evidence != actionable evidence != safe auto-answer
