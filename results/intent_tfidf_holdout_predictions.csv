@@ -1,0 +1,39 @@
+golden_example_id,customer_message,human_intent,predicted_intent,correct
+149,@115850 service sucks. Never trust amazon.,order_issue,prime_membership,False
+170,Biggest weekend of the year for consumers! Got a sweet deal thanks to @140312. But @115821 dropped the ball delivering it today. I was at work while my package was delivered. It says I signed for it while i was at WORK. You guys sure hire some great delivery drivers. FML,delivery_problem,delivery_problem,True
+200,@AmazonHelp it’s now after 9 PM and package has not arrived https://t.co/G5SjqZjUxp,delivery_problem,order_issue,False
+179,Got Prime to see if its worth it....still deciding. Cutting it close @115821 @AmazonHelp https://t.co/uyQO3WBLAz,delivery_status,prime_membership,False
+123,Bought some new sheets on @115821. Yay for me that they came pre-used and repackaged with someone else's hair! #barf https://t.co/kHezB8LjiU,returns_replacements,delivery_problem,False
+136,"@AmazonHelp your service over the phone and through the internet does not work. Useless, completely useless. I would very much like to speak to some one at your head office. Please provide me with contact details to be able to do this",delivery_problem,refund_issue,False
+59,To whoever stole my Amazon package; I sincerely hope you enjoy my curly hair shampoo you stupid fuck. IDK WHO YOU GONNA GIFT THAT TO YOU XMAS THIEF,returns_replacements,delivery_problem,False
+26,"I live in Tehran, Iran and want to shop at @115821. How can you help @AmazonHelp?",delivery_problem,order_issue,False
+39,@AmazonHelp I haven't received my Prime one day order yet and it's way past the delivery timeline. What do I do now?,delivery_status,delivery_problem,False
+35,"@117795 Hello we do not have dutch subtitles on downtown abbey season 6 episode 3, can you help please.",prime_membership,prime_membership,True
+122,@115821 stop advertising items as same-day delivery if you cannot make good on that,delivery_problem,delivery_problem,True
+100,"I have 2 echos and set up multi room music playback. How do you switch back and forth between multi room audio and playing on only one? Sometimes I like whole house, sometimes I don't want to wake up my wife.
+@115833 #echo #alexa",digital_product_support,order_issue,False
+29,Ugh. Back to the time now where filament orders from @115821 prime now take 3days to deliver,delivery_problem,delivery_problem,True
+40,@117634 hey folks how are we supposed to use the table of contents? Can't read this. What am I missing? Thanks! https://t.co/Ugq0Tjr1br,digital_product_support,refund_issue,False
+153,"これさー、マジでまぎらわしいんやけど迷惑メールなんよな
+ぱっと見やと文章とかアドレスとかリンク先とかめっちゃAmazonっぽいんやけど、差出人のアドレスのとこタップするとこんな感じで、その他のところにクソ関係なさそうなアドレスが一緒に出てくるねん
+みんなマジで気をつけてな https://t.co/qQCe847u5z",prime_membership,returns_replacements,False
+19,Habe von meinen Freunden einfach n Amazon Echo bekommen. Richtig NICE,delivery_status,digital_product_support,False
+138,Anyone care to have a wild stab in the dark as to who’s 2 days late with a pre order.....go on ....I dare you....😡😡,delivery_status,order_issue,False
+64,"Uhh...I was supposed to get the Logitech BRIO today, but instead I got some Maltesers? WTF @AmazonHelp @115830 https://t.co/Dlv6ywAPzn",returns_replacements,delivery_problem,False
+97,"Recibo una media de quince paquetes mensuales de @116928 y LOS ÚNICOS que siempre entregan con retraso, son @135806 @137605",returns_replacements,returns_replacements,True
+53,"@115833 can we get the ability to add an echo to multiple multi-room music groups? E.g. group ""upstairs"" and group ""everywhere""",digital_product_support,order_issue,False
+51,"@115850 
+
+Still can't delivery today even though it reached bANGLORE this morning. What kind of service is this ? https://t.co/9Ugaj9oE52",delivery_problem,prime_membership,False
+68,Cuando ya confirme mi cuenta y aun así sigue bloqueada porque #BlackFriday @116875 https://t.co/Qdmcbf2xHU,returns_replacements,returns_replacements,True
+119,@115821 SUPER UPSET WITH THE SERVICE AS A PRIME MEMBER. LOSING FAITH IN THIS COMPANY. WAS OFFERED A LOW BALL GIFT CARD FOR APPEASEMENT WHEN I HAVEN'T STILL RECEIVED MY TV AFTER ORDERING FOR THE 2ND TIME,delivery_problem,order_issue,False
+145,"@115821 this is ridiculous...i specified that this order was a gift too....and a ""replacement"" would cost me more since one of the items was a part of a lightning deal... https://t.co/1DMCnoPuON",refund_issue,delivery_problem,False
+127,Bon je le sens mal cette livraison @120533 :( Appel du livreur limite insistant et autoritaire pour que je descende récupérer mon colis alors que je ne suis pas chez moi. Me propose de le laisser à un voisin : Non (je ne connais pas encore assez mes voisins pour cela),delivery_problem,digital_product_support,False
+132,@115821 is getting an email from   “ __email__ “ telling me my order hasn’t been shipped because i need to fax credit card information and the billing adress legit or a scam ?,order_issue,order_issue,True
+79,@115821 @116935 #Alexia Can I shuffle music from a playlist I made on my echo? I know how to do it from the app.,digital_product_support,delivery_problem,False
+186,Amazonの誤配送詐欺に引っかかったかも...商品返品して四日目、いまだに返金の連絡来ない( ･ิ..･ิ ) #Amazon https://t.co/ZvDsuieXfr,returns_replacements,returns_replacements,True
+49,"So, habe mir dann gestern mal Alexa bestellt. Mal sehen wie das ist #EchoDot @116316",digital_product_support,prime_membership,False
+92,23h13 : peut-être que le livreur c'est fait une petite bouffe avant de reprendre le boulot @120533 https://t.co/kFMPhYQzEE,delivery_problem,returns_replacements,False
+185,"架空請求のSMS来た
+Amazonで有料動画とか見覚えなさすぎたから調べたら架空請求だった
+身近なんですね",returns_replacements,delivery_status,False
