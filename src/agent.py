@@ -22,7 +22,7 @@ DEMO_RETRIEVAL_FILE = (
 )
 
 DENSE_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
-DENSE_MIN_SCORE = 0.70
+DENSE_MIN_SCORE = 0.60
 
 
 INTENTS = [
@@ -126,6 +126,25 @@ def rule_based_intent(text: str) -> Optional[str]:
         "pre-order",
     ]
 
+    delivery_status_patterns = [
+        "where is my package",
+        "where is my parcel",
+        "where's my package",
+        "wheres my package",
+        "where's my parcel",
+        "wheres my parcel",
+        "where is my order",
+        "where's my order",
+        "track my package",
+        "track my parcel",
+        "track my order",
+        "order tracking",
+        "package tracking",
+        "parcel tracking",
+        "tracking update",
+        "tracking status",
+    ]
+
     if any(term in q for term in security_terms):
         return "account_security"
 
@@ -146,6 +165,9 @@ def rule_based_intent(text: str) -> Optional[str]:
 
     if any(term in q for term in preorder_terms):
         return "preorder_issue"
+
+    if any(term in q for term in delivery_status_patterns):
+        return "delivery_status"
 
     return None
 

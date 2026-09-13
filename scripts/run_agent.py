@@ -1,10 +1,9 @@
 from __future__ import annotations
 
 import argparse
+import json
 from pathlib import Path
 import sys
-
-import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -12,88 +11,107 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from src.generate import generate_with_openai
-
-
-def load_evidence(golden_id: int) -> list[dict]:
-    path = ROOT / "results" / "dense_comparison_top5.csv"
-
-    if not path.exists():
-        raise FileNotFoundError(
-            f"Missing retrieval artifact: {path}"
-        )
-
-    df = pd.read_csv(path)
-
-    rows = df[
-        df["golden_example_id"].astype(int) == int(golden_id)
-    ].sort_values("rank")
-
-    if rows.empty:
-        raise ValueError(
-            f"No retrieval evidence found for golden_example_id={golden_id}"
-        )
-
-    return rows.to_dict("records")
+from src.agent import AmazonHelpAgent
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Generate a grounded AmazonHelp support reply."
+        description="Run the full AmazonHelp support agent."
     )
 
     parser.add_argument(
         "--query",
         required=True,
-        help="Customer message",
+        help="Customer support message",
     )
 
     parser.add_argument(
-        "--golden-id",
+        "--top-k",
         type=int,
-        required=True,
-        help="Golden Set example whose precomputed evidence should be used",
+        default=5,
+        help="Number of historical interactions to retrieve",
     )
 
     parser.add_argument(
         "--model",
         default=None,
-        help="Optional API model. Defaults to OPENAI_MODEL.",
+        help="Generation model. Defaults to OPENAI_MODEL.",
     )
 
     args = parser.parse_args()
 
-    evidence = load_evidence(args.golden_id)
+    agent = AmazonHelpAgent()
 
-    result = generate_with_openai(
+    result = agent.run(
         query=args.query,
-        evidence=evidence,
+        top_k=args.top_k,
         model=args.model,
     )
 
-    print("\n" + "=" * 70)
-    print("AMAZONHELP SUPPORT AGENT")
-    print("=" * 70)
+    print("\n" + "=" * 72)
+    print("AMAZONHELP AI SUPPORT AGENT")
+    print("=" * 72)
 
     print("\nCUSTOMER MESSAGE")
-    print(args.query)
+    print(result["query"])
+
+    print("\nINTENT")
+    print(json.dumps(
+        result["intent"],
+        indent=2,
+        ensure_ascii=False,
+    ))
+
+    print("\nEVIDENCE ASSESSMENT")
+    print(json.dumps(
+        result["evidence_assessment"],
+        indent=2,
+    ))
+
+    print("\nTOP HISTORICAL EVIDENCE")
+
+    for item in result["retrieved_evidence"]:
+        print(
+            f"\nRank {item['rank']} "
+            f"| dense_score={item['dense_score']:.4f}"
+        )
+
+        print(
+            "Customer:",
+            item["historical_customer_text"][:500],
+        )
+
+        if item.get("brand_response"):
+            print(
+                "AmazonHelp:",
+                item["brand_response"][:500],
+            )
 
     print("\nDRAFT RESPONSE")
-    print(result.draft_response)
+    print(result["draft_response"])
 
     print("\nGROUNDED CLAIM")
-    print(result.grounded_claim)
+    print(result["grounded_claim"])
 
-    print("\nNEEDS MORE INFORMATION")
-    print(result.needs_more_information)
+    print(
+        "\nNEEDS MORE INFORMATION:",
+        result["needs_more_information"],
+    )
 
-    print("\nEVIDENCE USED")
-    for i, item in enumerate(evidence, start=1):
-        score = item.get("dense_score", "")
-        print(
-            f"{i}. rank={item.get('rank')} "
-            f"score={score}"
-        )
+    print(
+        "\nSHOULD ESCALATE:",
+        result["should_escalate"],
+    )
+
+    print("\nESCALATION REASONS")
+
+    reasons = result["escalation_reasons"]
+
+    if reasons:
+        for reason in reasons:
+            print("-", reason)
+    else:
+        print("none")
 
 
 if __name__ == "__main__":
