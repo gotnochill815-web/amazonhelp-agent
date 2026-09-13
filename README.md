@@ -53,7 +53,7 @@ pip install -r requirements.txt
 export OPENAI_API_KEY="sk-..."
 export OPENAI_MODEL="gpt-4o-mini"   # any chat-completions model with JSON mode
 
-python -m src.agent --query "My package says delivered but I never got it, it's been 3 days"
+python scripts/run_agent.py --query "My package says delivered but I never got it, it's been 3 days"
 ```
 
 Expected output: the classified intent, the top retrieved historical
