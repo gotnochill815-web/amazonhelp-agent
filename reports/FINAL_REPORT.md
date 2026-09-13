@@ -13,11 +13,35 @@ The key design principle is that **retrieval relevance is not the same thing as 
 
 ---
 
+
+### What I chose not to build
+
+I deliberately scoped this project as a grounded support-triage prototype rather
+than a full production customer-service platform. I did not build live order,
+account, payment, or delivery-system integrations because the assignment data
+does not provide authenticated access to those systems. I also did not build
+persistent multi-turn dialogue memory or claim full-fidelity multilingual
+support; those require additional product and language-specific evaluation.
+These were deferred so the project could focus on measurable intent
+classification, historical retrieval, grounded response generation, and
+conservative escalation.
+
 ## 2. Dataset and Golden Set
 
 I selected AmazonHelp because its support corpus contains substantial multi-turn interactions across delivery, orders, refunds, returns, payments, accounts, membership, and digital products.
 
 The evaluation uses a temporal split so evaluation conversations are not present in the retrieval corpus.
+
+
+### Golden-set sampling and labeling
+
+The 200-example review pool was constructed from the temporal-safe evaluation
+population with deliberate coverage of uncertain and boundary cases, rather
+than treating easy random examples as sufficient. Review priority was used to
+surface cases where intent or evidence decisions were more difficult, while
+the final primary benchmark retained only examples that received genuine
+human labels. A separate set of 48 model-assisted examples was preserved for
+exploration but excluded from primary ground truth.
 
 The primary Gold evaluation contains **152 genuinely human-labelled examples**.
 
