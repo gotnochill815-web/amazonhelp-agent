@@ -262,3 +262,40 @@ See:
 - `src/`
 - `results/`
 - `reports/FINAL_REPORT.pdf`
+
+
+
+### LLM-as-judge agreement on generated replies
+
+I evaluated 20 generated AmazonHelp replies with an independent LLM judge using
+the same customer message and retrieved historical evidence shown to the agent.
+The judge scored factuality, grounding, helpfulness, and overall quality on a
+0-2 scale. A separate binary judgement asked whether the response was safe to
+auto-answer.
+
+Agreement with the human reviewer was low:
+
+| Dimension | Exact agreement | Cohen's kappa |
+|---|---:|---:|
+| Factuality | 25% | 0.013 |
+| Grounding | 25% | 0.026 |
+| Helpfulness | 10% | -0.037 |
+| Overall quality | 15% | -0.049 |
+| Safe to auto-answer | 35% | -0.102 |
+
+The important finding is evaluator-calibration mismatch. The LLM judge was
+systematically more conservative on several response-quality dimensions and
+substantially more willing than the human reviewer to mark a response as safe
+to auto-answer. The judge is therefore useful as a secondary evaluator and
+failure detector, but not reliable enough to replace human review.
+
+Human review remains the primary qualitative evaluation. The LLM judgments and
+all disagreement cases are retained in `results/` for reproducibility.
+
+### Metric comparability note
+
+The 45.2% intent accuracy reported for the final classifier benchmark is the
+apples-to-apples result on a fixed 80/20 holdout from the 152 human-labelled
+examples. The 56.6% figure is an operational full-Gold diagnostic after fitting
+the production classifier on all available human labels. These numbers should
+not be interpreted as two independent test-set results.
