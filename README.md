@@ -148,8 +148,33 @@ figure — it isn't one.
 | Final (rule + MiniLM) | 45.2% | 35.7% | 42.5% |
 
 (Note: this table uses a separate fixed classifier holdout; the 56.6%
-end-to-end figure above is measured on the full human-Gold set including
-rule-based short-circuits — see `reports/FINAL_REPORT.md` for the distinction.)
+end-to-end figure above is measured on the full human-Gold set after fitting
+the production classifier on all available labels — the two numbers are not
+independent test results. See `reports/FINAL_REPORT.md` section 8 for the
+full explanation.)
+
+### LLM-judge agreement on reply quality
+
+20 generated replies were scored by both an independent LLM judge and a
+human reviewer on factuality, grounding, helpfulness, overall quality
+(0-2 scale), and a binary safe-to-auto-answer call. Full data:
+`results/reply_quality_llm_judgments.csv`, `results/reply_quality_human_review.csv`,
+`results/reply_quality_agreement_metrics.csv`, `results/reply_quality_agreement_disagreements.csv`.
+
+| Dimension | Exact agreement | Cohen's kappa |
+|---|---:|---:|
+| Factuality | 25% | 0.013 |
+| Grounding | 25% | 0.026 |
+| Helpfulness | 10% | -0.037 |
+| Overall quality | 15% | -0.049 |
+| Safe to auto-answer | 35% | -0.102 |
+
+**Agreement is low, and the miscalibration is safety-relevant, not
+cosmetic:** the LLM judge marked replies "safe to auto-answer" far more
+often than the human reviewer did (mean 0.6 vs. 0.05). Treating the judge
+as a stand-in for human sign-off on auto-send decisions would be a mistake —
+it's used here as a secondary failure detector, not as a substitute for
+human review. See `reports/FINAL_REPORT.md` section 8 for full discussion.
 
 ---
 
