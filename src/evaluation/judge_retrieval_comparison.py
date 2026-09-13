@@ -14,7 +14,7 @@ from transformers import (
 )
 
 
-ROOT = Path("/content/hiver-amazonhelp-agent")
+ROOT = Path(__file__).resolve().parents[2]
 
 BM25_PATH = (
     ROOT / "results" / "bm25_comparison_top5.csv"

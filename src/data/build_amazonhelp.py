@@ -140,5 +140,5 @@ if __name__ == "__main__":
 
     build_amazonhelp_dataset(
         data_path=DATA_PATH,
-        output_dir="/content/hiver-amazonhelp-agent/results",
+        output_dir=str(Path(__file__).resolve().parents[2] / "results"),
     )

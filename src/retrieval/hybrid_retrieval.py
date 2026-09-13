@@ -9,7 +9,7 @@ from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer, CrossEncoder
 
 
-ROOT = Path("/content/hiver-amazonhelp-agent")
+ROOT = Path(__file__).resolve().parents[2]
 
 RETRIEVAL_PATH = (
     ROOT / "results" / "retrieval_pairs_temporal_gold_excluded.csv"

@@ -7,7 +7,7 @@ import pandas as pd
 from rank_bm25 import BM25Okapi
 
 
-ROOT = Path("/content/hiver-amazonhelp-agent")
+ROOT = Path(__file__).resolve().parents[2]
 RESULTS = ROOT / "results"
 
 RETRIEVAL_FILE = RESULTS / "retrieval_pairs_temporal.csv"
